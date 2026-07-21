@@ -1,0 +1,657 @@
+.story {
+  position: relative;
+  min-height: 735px;
+}
+
+.frame {
+  position: relative;
+  width: 100%;
+  height: 735px;
+  overflow: hidden;
+  border: 1px solid rgba(225, 228, 239, 0.88);
+  border-radius: 36px;
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.86),
+      rgba(255, 255, 255, 0.86)
+    ),
+    radial-gradient(
+      circle at 20% 10%,
+      rgba(107, 98, 162, 0.16),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 80% 85%,
+      rgba(24, 182, 126, 0.1),
+      transparent 32%
+    );
+  box-shadow: 0 35px 100px rgba(42, 45, 76, 0.16);
+  transform: perspective(1200px) rotateY(-1.5deg) rotateX(0.6deg);
+  transform-origin: center;
+}
+
+.frame::before {
+  position: absolute;
+  inset: 0;
+  content: "";
+  pointer-events: none;
+  background-image:
+    linear-gradient(
+      rgba(63, 58, 100, 0.035) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(63, 58, 100, 0.035) 1px,
+      transparent 1px
+    );
+  background-size: 34px 34px;
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.75),
+    transparent 93%
+  );
+}
+
+.label {
+  position: absolute;
+  top: 23px;
+  left: 26px;
+  z-index: 8;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 12px;
+  border: 1px solid rgba(63, 58, 100, 0.1);
+  border-radius: 999px;
+  color: #686f82;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 10px 30px rgba(42, 45, 76, 0.07);
+  backdrop-filter: blur(12px);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+}
+
+.liveDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-success);
+  box-shadow: 0 0 0 5px rgba(24, 182, 126, 0.11);
+  animation: livePulse 2.4s ease-in-out infinite;
+}
+
+.pathSvg {
+  position: absolute;
+  inset: 6px;
+  z-index: 1;
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  overflow: visible;
+  pointer-events: none;
+}
+
+.pathShadow,
+.pathBase,
+.pathProgress {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.pathShadow {
+  stroke: rgba(63, 58, 100, 0.09);
+  stroke-width: 17;
+  filter: blur(8px);
+}
+
+.pathBase {
+  stroke: rgba(63, 58, 100, 0.13);
+  stroke-width: 3;
+}
+
+.pathProgress {
+  stroke: url("#opportunityPathGradient");
+  stroke-width: 4;
+  stroke-dasharray: 22 13;
+  opacity: 0.78;
+  animation: pathDash 3.4s linear infinite;
+}
+
+.opportunityHalo,
+.opportunityLight,
+.opportunityCore {
+  pointer-events: none;
+}
+
+.opportunityHalo {
+  mix-blend-mode: multiply;
+}
+
+.node {
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 15px;
+  border: 1px solid rgba(223, 226, 236, 0.92);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 14px 38px rgba(38, 42, 73, 0.11);
+  backdrop-filter: blur(15px);
+  transition:
+    transform 0.22s,
+    border-color 0.22s,
+    box-shadow 0.22s;
+}
+
+.node:hover {
+  z-index: 12;
+  border-color: rgba(63, 58, 100, 0.25);
+  box-shadow: 0 23px 55px rgba(38, 42, 73, 0.17);
+}
+
+.nodeCopy {
+  min-width: 0;
+}
+
+.nodeCopy span,
+.nodeCopy strong,
+.nodeCopy small {
+  display: block;
+}
+
+.nodeCopy span {
+  margin-bottom: 2px;
+  color: #9299aa;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
+
+.nodeCopy strong {
+  overflow: hidden;
+  color: var(--color-heading);
+  font-size: 12px;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.nodeCopy small {
+  margin-top: 2px;
+  color: #9299aa;
+  font-size: 9px;
+}
+
+.node em {
+  margin-left: auto;
+  padding: 5px 8px;
+  border-radius: 999px;
+  color: var(--color-primary);
+  background: var(--color-primary-light);
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.nodeIcon {
+  display: inline-flex;
+  width: 38px;
+  height: 38px;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.nodeIcon svg,
+.messageCard svg,
+.successRing svg {
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.indigoIcon {
+  color: var(--color-primary);
+  background: var(--color-primary-light);
+}
+
+.greenIcon {
+  color: #147757;
+  background: #e9f9f3;
+}
+
+.requestNode {
+  top: 70px;
+  left: 39px;
+  width: 300px;
+  animation: floatA 5.8s ease-in-out infinite;
+}
+
+.leadNode {
+  top: 165px;
+  right: 42px;
+  width: 260px;
+  animation: floatB 6.5s ease-in-out infinite;
+}
+
+.avatar {
+  display: flex;
+  width: 39px;
+  height: 39px;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+  color: var(--color-primary);
+  background: linear-gradient(135deg, #f3f1fb, #e8e5f5);
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.sellabooNode {
+  top: 278px;
+  left: 153px;
+  width: 310px;
+  min-height: 86px;
+  border-color: rgba(91, 82, 143, 0.24);
+  background:
+    radial-gradient(
+      circle at 14% 50%,
+      rgba(103, 94, 157, 0.12),
+      transparent 32%
+    ),
+    rgba(255, 255, 255, 0.94);
+  box-shadow:
+    0 22px 65px rgba(63, 58, 100, 0.16),
+    0 0 0 8px rgba(63, 58, 100, 0.035);
+  animation: sellabooBreathe 4s ease-in-out infinite;
+}
+
+.sellabooHalo {
+  position: absolute;
+  inset: -32px;
+  z-index: -1;
+  border-radius: 44px;
+  background: radial-gradient(
+    circle,
+    rgba(88, 79, 143, 0.17),
+    transparent 69%
+  );
+  filter: blur(8px);
+  animation: haloPulse 4s ease-in-out infinite;
+}
+
+.brandOrb {
+  display: inline-flex;
+  width: 47px;
+  height: 47px;
+  flex: 0 0 auto;
+  filter: drop-shadow(0 9px 15px rgba(63, 58, 100, 0.2));
+}
+
+.brandOrb svg {
+  width: 100%;
+  height: 100%;
+}
+
+.brandOrb rect {
+  fill: var(--color-primary);
+}
+
+.brandOrb path {
+  fill: white;
+}
+
+.followupNode {
+  top: 391px;
+  right: 30px;
+  width: 310px;
+  animation: floatA 6.1s ease-in-out infinite reverse;
+}
+
+.messageStack {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  flex: 0 0 auto;
+}
+
+.messageCard {
+  position: absolute;
+  display: flex;
+  width: 37px;
+  height: 37px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 11px;
+}
+
+.messageCardBack {
+  top: 0;
+  right: 0;
+  background: #e1dff0;
+  transform: rotate(8deg);
+}
+
+.messageCardFront {
+  bottom: 0;
+  left: 0;
+  color: var(--color-primary);
+  background: var(--color-primary-light);
+  box-shadow: 0 8px 18px rgba(63, 58, 100, 0.1);
+}
+
+.responseNode {
+  top: 506px;
+  left: 43px;
+  width: 295px;
+  animation: floatB 6.8s ease-in-out infinite reverse;
+}
+
+.bookedNode {
+  right: 35px;
+  bottom: 56px;
+  width: 292px;
+  border-color: rgba(24, 182, 126, 0.25);
+  background:
+    radial-gradient(
+      circle at 8% 50%,
+      rgba(24, 182, 126, 0.13),
+      transparent 28%
+    ),
+    rgba(255, 255, 255, 0.95);
+  box-shadow:
+    0 20px 55px rgba(20, 119, 87, 0.13),
+    0 0 0 7px rgba(24, 182, 126, 0.035);
+  animation: bookedPulse 4.5s ease-in-out infinite;
+}
+
+.bookedNode em {
+  color: #147757;
+  background: #e9f9f3;
+}
+
+.successRing {
+  display: flex;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  color: #147757;
+  background: #e9f9f3;
+  box-shadow: 0 0 0 7px rgba(24, 182, 126, 0.07);
+}
+
+.caption {
+  position: absolute;
+  right: 0;
+  bottom: 12px;
+  left: 0;
+  z-index: 8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding-inline: 30px;
+  text-align: center;
+}
+
+.caption > span {
+  width: 21px;
+  height: 2px;
+  flex: 0 0 auto;
+  border-radius: 99px;
+  background: linear-gradient(
+    90deg,
+    #6f68a0,
+    var(--color-success)
+  );
+}
+
+.caption p {
+  margin: 0;
+  color: #7f8798;
+  font-size: 10px;
+  font-weight: 650;
+}
+
+@keyframes pathDash {
+  to {
+    stroke-dashoffset: -70;
+  }
+}
+
+@keyframes livePulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 5px rgba(24, 182, 126, 0.1);
+  }
+
+  50% {
+    box-shadow: 0 0 0 9px rgba(24, 182, 126, 0.02);
+  }
+}
+
+@keyframes floatA {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-0.25deg);
+  }
+
+  50% {
+    transform: translateY(-6px) rotate(0.25deg);
+  }
+}
+
+@keyframes floatB {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0.25deg);
+  }
+
+  50% {
+    transform: translateY(-7px) rotate(-0.2deg);
+  }
+}
+
+@keyframes sellabooBreathe {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.022);
+  }
+}
+
+@keyframes haloPulse {
+  0%,
+  100% {
+    opacity: 0.58;
+    transform: scale(0.96);
+  }
+
+  50% {
+    opacity: 0.93;
+    transform: scale(1.06);
+  }
+}
+
+@keyframes bookedPulse {
+  0%,
+  100% {
+    transform: translateY(0);
+    box-shadow:
+      0 20px 55px rgba(20, 119, 87, 0.13),
+      0 0 0 7px rgba(24, 182, 126, 0.035);
+  }
+
+  50% {
+    transform: translateY(-5px);
+    box-shadow:
+      0 25px 64px rgba(20, 119, 87, 0.16),
+      0 0 0 11px rgba(24, 182, 126, 0.025);
+  }
+}
+
+@media (max-width: 760px) {
+  .story {
+    min-height: 670px;
+  }
+
+  .frame {
+    height: 670px;
+    border-radius: 28px;
+    transform: none;
+  }
+
+  .pathSvg {
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .label {
+    top: 16px;
+    left: 16px;
+  }
+
+  .node {
+    gap: 9px;
+    padding: 11px 12px;
+    border-radius: 15px;
+  }
+
+  .nodeCopy strong {
+    font-size: 10px;
+  }
+
+  .nodeCopy span,
+  .nodeCopy small {
+    font-size: 8px;
+  }
+
+  .requestNode {
+    top: 62px;
+    left: 15px;
+    width: 245px;
+  }
+
+  .leadNode {
+    top: 155px;
+    right: 13px;
+    width: 215px;
+  }
+
+  .sellabooNode {
+    top: 260px;
+    left: 31px;
+    width: 263px;
+    min-height: 75px;
+  }
+
+  .followupNode {
+    top: 375px;
+    right: 13px;
+    width: 254px;
+  }
+
+  .responseNode {
+    top: 485px;
+    left: 14px;
+    width: 245px;
+  }
+
+  .bookedNode {
+    right: 13px;
+    bottom: 47px;
+    width: 242px;
+  }
+
+  .node em {
+    display: none;
+  }
+
+  .caption {
+    bottom: 8px;
+  }
+
+  .caption p {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 420px) {
+  .story {
+    min-height: 640px;
+  }
+
+  .frame {
+    height: 640px;
+  }
+
+  .requestNode {
+    width: 224px;
+  }
+
+  .leadNode {
+    top: 151px;
+    width: 199px;
+  }
+
+  .sellabooNode {
+    top: 248px;
+    left: 18px;
+    width: 250px;
+  }
+
+  .followupNode {
+    top: 356px;
+    width: 238px;
+  }
+
+  .responseNode {
+    top: 456px;
+    width: 226px;
+  }
+
+  .bookedNode {
+    width: 225px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pathProgress,
+  .liveDot,
+  .requestNode,
+  .leadNode,
+  .sellabooNode,
+  .sellabooHalo,
+  .followupNode,
+  .responseNode,
+  .bookedNode {
+    animation: none;
+  }
+
+  .opportunityHalo,
+  .opportunityLight,
+  .opportunityCore {
+    display: none;
+  }
+}

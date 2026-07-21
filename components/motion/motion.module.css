@@ -1,0 +1,99 @@
+.reveal {
+    --motion-delay: 0ms;
+    --motion-distance: 20px;
+    --motion-duration: 700ms;
+
+    opacity: 0;
+    transition:
+        opacity var(--motion-duration) cubic-bezier(0.22, 1, 0.36, 1) var(--motion-delay),
+        transform var(--motion-duration) cubic-bezier(0.22, 1, 0.36, 1) var(--motion-delay);
+    will-change: opacity, transform;
+}
+
+.fadeUp {
+    transform: translate3d(0, var(--motion-distance), 0);
+}
+
+.fadeDown {
+    transform: translate3d(0,
+            calc(var(--motion-distance) * -1),
+            0);
+}
+
+.fadeLeft {
+    transform: translate3d(var(--motion-distance), 0, 0);
+}
+
+.fadeRight {
+    transform: translate3d(calc(var(--motion-distance) * -1),
+            0,
+            0);
+}
+
+.fade {
+    transform: none;
+}
+
+.scale {
+    transform: scale(0.97);
+}
+
+.revealVisible {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+}
+
+.stagger {
+    --stagger-delay: 85ms;
+    --stagger-duration: 700ms;
+    --stagger-distance: 20px;
+}
+
+.stagger>* {
+    opacity: 0;
+    transform: translate3d(0,
+            var(--stagger-distance),
+            0);
+    transition:
+        opacity var(--stagger-duration) cubic-bezier(0.22, 1, 0.36, 1),
+        transform var(--stagger-duration) cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+}
+
+.staggerVisible>* {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition-delay: calc(var(--stagger-delay) * var(--stagger-index, 0));
+}
+
+.sequence {
+    --sequence-delay: 110ms;
+    --sequence-duration: 650ms;
+}
+
+.sequence [data-sequence-item] {
+    opacity: 0;
+    transform: translate3d(0, 8px, 0) scale(0.98);
+    transition:
+        opacity var(--sequence-duration) cubic-bezier(0.22, 1, 0.36, 1),
+        transform var(--sequence-duration) cubic-bezier(0.22, 1, 0.36, 1);
+    transition-delay: calc(var(--sequence-delay) * var(--sequence-index, 0));
+    will-change: opacity, transform;
+}
+
+.sequenceVisible [data-sequence-item] {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .reveal,
+    .stagger>*,
+    .sequence [data-sequence-item] {
+        opacity: 1;
+        transform: none;
+        transition: none;
+        will-change: auto;
+    }
+}
