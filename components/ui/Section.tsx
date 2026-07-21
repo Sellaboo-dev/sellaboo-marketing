@@ -1,16 +1,15 @@
-import { ReactNode } from "react";
+import type { ComponentPropsWithoutRef } from "react";
 
-type Props = {
-  children: ReactNode;
-  className?: string;
-};
+type Props = ComponentPropsWithoutRef<"section">;
 
 export function Section({
   children,
   className = "",
+  ...props
 }: Props) {
   return (
     <section
+      {...props}
       className={[
         "py-24",
         "lg:py-32",
