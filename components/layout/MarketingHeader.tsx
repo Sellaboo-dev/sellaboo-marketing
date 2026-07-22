@@ -1,7 +1,6 @@
 import { Button } from "../ui/Button";
 
-const FOUNDING_CUSTOMER_URL =
-  "https://app.sellaboo.com/founding-beta";
+import { FOUNDING_CUSTOMER_URL } from "@/lib/marketing-links";
 
 function SellabooLogo() {
   return (

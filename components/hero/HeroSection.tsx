@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
+import { FOUNDING_CUSTOMER_URL } from "@/lib/marketing-links";
 import { OpportunityPath } from "./OpportunityPath";
-
-const FOUNDING_CUSTOMER_URL =
-  "https://app.sellaboo.com/founding-beta";
+import { ArrowIcon } from "@/components/icons/ArrowIcon";
+import { PlayIcon } from "@/components/icons/PlayIcon";
 
 const industries = [
   "HVAC",
@@ -12,38 +12,6 @@ const industries = [
   "Roofing",
   "Remodeling",
 ];
-
-function ArrowIcon() {
-  return (
-    <svg
-      viewBox="0 0 20 20"
-      aria-hidden="true"
-      className="size-5 fill-none stroke-current stroke-2"
-    >
-      <path
-        d="M4 10h11M11 6l4 4-4 4"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
-function PlayIcon() {
-  return (
-    <span
-      aria-hidden="true"
-      className="inline-flex size-8 items-center justify-center rounded-full bg-[var(--color-primary-light)] text-[var(--color-primary)]"
-    >
-      <svg
-        viewBox="0 0 20 20"
-        className="size-4 fill-current"
-      >
-        <path d="m7 5 8 5-8 5V5Z" />
-      </svg>
-    </span>
-  );
-}
 
 function IndustryProof() {
   return (
