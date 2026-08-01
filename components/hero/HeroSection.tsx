@@ -91,12 +91,12 @@ export function HeroSection() {
             </Button>
 
             <Button
-              href="#two-minute-demo"
+              href="/demo"
               variant="secondary"
               className="min-h-[57px] gap-2.5 px-6 shadow-[0_10px_30px_rgba(42,45,76,0.07)]"
             >
               <PlayIcon />
-              Watch a 2-Minute Demo
+              Watch How Sellaboo Works
             </Button>
           </div>
 
