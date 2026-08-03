@@ -14,12 +14,50 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sellaboo.com"),
+
   title: {
-    default: "Sellaboo",
+    default: "Sellaboo | Lead Follow-Up for Home Service Businesses",
     template: "%s | Sellaboo",
   },
+
   description:
-    "The Lead Follow-Up System for Home Service Businesses.",
+    "Sellaboo helps home service businesses keep leads engaged through consistent, organized follow-up while owners stay focused on running their business.",
+
+  applicationName: "Sellaboo",
+
+  alternates: {
+    canonical: "/",
+  },
+
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://sellaboo.com",
+    siteName: "Sellaboo",
+    title: "Sellaboo | Lead Follow-Up for Home Service Businesses",
+    description:
+      "Keep every opportunity moving with consistent, organized follow-up built for home service businesses.",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Sellaboo | Lead Follow-Up for Home Service Businesses",
+    description:
+      "Keep every opportunity moving with consistent, organized follow-up built for home service businesses.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
 };
 
 export default function RootLayout({
