@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
 import { MotionProvider } from "@/components/motion/MotionProvider";
@@ -67,12 +68,22 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
-      className={`${inter.variable} ${manrope.variable}`}
-    >
-      <body>
-        <MotionProvider>{children}</MotionProvider>
-      </body>
-    </html>
+  lang="en"
+  className={`${inter.variable} ${manrope.variable}`}
+>
+  <body>
+    <MotionProvider>{children}</MotionProvider>
+
+    <Script id="microsoft-clarity" strategy="afterInteractive">
+      {`
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "xwdoa10jh4");
+      `}
+    </Script>
+  </body>
+</html>
   );
 }
