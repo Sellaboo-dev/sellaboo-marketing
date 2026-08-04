@@ -3,6 +3,7 @@ import Script from "next/script";
 import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
 import { MotionProvider } from "@/components/motion/MotionProvider";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -83,6 +84,8 @@ export default function RootLayout({
         })(window, document, "clarity", "script", "xwdoa10jh4");
       `}
     </Script>
+    
+    <GoogleAnalytics gaId="G-EGX90HBKG2" />
   </body>
 </html>
   );
