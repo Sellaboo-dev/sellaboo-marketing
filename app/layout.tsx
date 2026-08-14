@@ -85,6 +85,12 @@ export default function RootLayout({
       `}
     </Script>
     
+    <Script
+      id="hubspot-tracking"
+      src="//js-na2.hs-scripts.com/245967329.js"
+      strategy="afterInteractive"
+    />
+
     <GoogleAnalytics gaId="G-EGX90HBKG2" />
   </body>
 </html>
