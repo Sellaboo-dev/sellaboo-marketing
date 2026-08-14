@@ -18,7 +18,7 @@ export const whySellabooFeatures: readonly WhySellabooFeature[] = [
     eyebrow: "Start Following Up in Seconds",
     title: "Follow-Up Starts in Seconds",
     description:
-      "Enroll a new lead and Sellaboo immediately begins consistent follow-up, helping you get back to serving customers instead of spending hours configuring complicated software.",
+      "Enroll a new lead, click one button and Sellaboo immediately begins consistent follow-up, letting you get back to serving customers instead of spending hours configuring complicated software.",
   },
   {
     id: "focused",

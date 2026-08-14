@@ -12,11 +12,11 @@ export const resultOutcomes: readonly ResultOutcome[] = [
     eyebrow: "Capture every opportunity",
     title: "Never lose another lead",
     description:
-      "Every new inquiry enters one reliable follow-up system, so promising opportunities do not disappear into sticky notes, spreadsheets, or forgotten callbacks.",
+      "Every new inquiry enters one reliable follow-up system, so promising opportunities don't disappear into sticky notes, spreadsheets, or forgotten callbacks.",
     supportingPoints: [
       "Every lead stays organized",
-      "No forgotten callbacks",
-      "No missed follow-up opportunities",
+      "Every lead keeps progressing",
+      "No missed revenue opportunities",
     ],
   },
   {
@@ -36,7 +36,7 @@ export const resultOutcomes: readonly ResultOutcome[] = [
     eyebrow: "Convert more demand",
     title: "Turn more leads into booked jobs",
     description:
-      "Consistent follow-up helps you create more conversations, secure more appointments, and win more value from the leads you already paid to generate.",
+      "Consistent follow-up helps you create more conversations, secure more appointments, and win more revenue from the leads you already worked hard to generate.",
     supportingPoints: [
       "More lead conversations",
       "More booked appointments",

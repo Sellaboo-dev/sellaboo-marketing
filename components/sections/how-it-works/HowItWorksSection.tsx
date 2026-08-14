@@ -97,9 +97,9 @@ export function HowItWorksSection() {
                         duration={700}
                     >
                         <h2 className="font-[var(--font-heading)] text-[clamp(40px,5.5vw,66px)] font-extrabold leading-[1.04] tracking-[-0.05em] text-[var(--color-heading)]">
-                            One opportunity.{" "}
+                            Every Lead.{" "}
                             <span className="bg-[linear-gradient(90deg,var(--color-primary),var(--color-success))] bg-clip-text text-transparent">
-                                Five simple moments.
+                                Five simple steps.
                             </span>
                         </h2>
                     </Reveal>
@@ -112,7 +112,7 @@ export function HowItWorksSection() {
                     >
                         <p className="mx-auto mt-6 max-w-[710px] text-[clamp(17px,1.6vw,20px)] leading-[1.72] text-[var(--color-body)]">
                             Every lead moves through the same journey. Sellaboo
-                            quietly handles the follow-up until your team is needed.
+                            quietly handles the follow-up FOR YOU until the customer is ready and your team is needed.
                         </p>
                     </Reveal>
                 </div>
@@ -159,8 +159,8 @@ export function HowItWorksSection() {
                         <p className="mt-4 font-[var(--font-heading)] text-[clamp(18px,2vw,24px)] font-extrabold leading-[1.45] tracking-[-0.025em] text-[var(--color-heading)] sm:mt-0">
                             Sellaboo doesn’t replace your team.{" "}
                             <span className="text-[#16825f]">
-                                It makes sure every opportunity reaches them at the
-                                right moment.
+                                It makes sure your business is kept in the game until your customer is ready.
+                                People buy from the company that communicates.
                             </span>
                         </p>
                     </div>
@@ -179,7 +179,7 @@ export function HowItWorksSection() {
                             href={FOUNDING_CUSTOMER_URL}
                             className="min-h-[57px] gap-2.5 px-7"
                         >
-                            Become a Founding Customer
+                            Become a Early Customer
                             <ArrowIcon />
                         </Button>
 
@@ -194,7 +194,7 @@ export function HowItWorksSection() {
                     </div>
 
                     <p className="mt-5 text-center text-[13px] font-semibold text-[#777f91]">
-                        Limited founding customer spots available. Lock in early
+                        Limited Phase 1 customer spots available. Lock in early
                         access and special pricing.
                     </p>
                 </Reveal>

@@ -3,7 +3,7 @@ import { Container } from "@/components/ui/Container";
 const problems = [
   {
     number: "01",
-    title: "The workday takes over",
+    title: "The workday gets busy",
     description:
       "Calls, jobs, estimates, and customer issues compete for attention. Even strong teams can lose track of who needs the next follow-up.",
   },
@@ -11,7 +11,7 @@ const problems = [
     number: "02",
     title: "Promising leads go quiet",
     description:
-      "A lead who does not respond immediately is easy to overlook—even though timing, not interest, may be the real reason.",
+      "A lead who does not buy immediately is easy to get overlooked. Maybe the timing is off, they're unsure, or they're shopping competitors.",
   },
   {
     number: "03",
@@ -59,8 +59,8 @@ export function ProblemSection() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-[700px] text-[clamp(17px,1.6vw,20px)] leading-[1.75] text-[var(--color-body)]">
-            They’re lost because follow-up gets buried beneath the
-            workday. Sellaboo gives every opportunity a clear next
+            They’re lost because you get busy.
+            Sellaboo keeps you in front of every lead and gives every lead a clear next
             step, even when your team is busy serving customers.
           </p>
         </div>

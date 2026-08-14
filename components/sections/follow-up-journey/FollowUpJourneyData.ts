@@ -27,7 +27,7 @@ export const followUpJourneySteps: readonly FollowUpJourneyStep[] = [
     step: 2,
     title: "Click Enroll",
     description:
-      "With one simple action, the lead is enrolled and ready for consistent follow-up.",
+      "With one simple click, the lead is enrolled and ready for consistent follow-up.",
     visual: "enroll",
   },
   {
@@ -35,7 +35,7 @@ export const followUpJourneySteps: readonly FollowUpJourneyStep[] = [
     step: 3,
     title: "Follow-Up Starts in Seconds",
     description:
-      "Sellaboo begins the follow-up process almost immediately, without complicated campaign setup.",
+      "Sellaboo begins the follow-up process immediately, without complicated campaign setup or email writing.",
     visual: "started",
   },
   {
@@ -43,7 +43,7 @@ export const followUpJourneySteps: readonly FollowUpJourneyStep[] = [
     step: 4,
     title: "Your Lead Keeps Hearing From You",
     description:
-      "Thoughtful, consistent follow-up keeps the conversation moving while you handle the rest of your day.",
+      "Thoughtful, consistent follow-up keeps you in front of your prospects while you handle the rest of your day.",
     visual: "engaged",
   },
   {
