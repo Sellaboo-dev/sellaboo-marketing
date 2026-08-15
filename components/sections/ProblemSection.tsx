@@ -11,7 +11,7 @@ const problems = [
     number: "02",
     title: "Promising leads go quiet",
     description:
-      "A lead who does not buy immediately is easy to get overlooked. Maybe the timing is off, they're unsure, or they're shopping competitors.",
+      "A lead who doesn't buy immediately is easy to get overlooked. Maybe the timing is off, they're unsure, or they're shopping competitors. People buy from those they trust, and consistent follow-up builds trust.",
   },
   {
     number: "03",
