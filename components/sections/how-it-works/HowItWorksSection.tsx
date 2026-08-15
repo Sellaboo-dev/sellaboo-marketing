@@ -179,7 +179,7 @@ export function HowItWorksSection() {
                             href={FOUNDING_CUSTOMER_URL}
                             className="min-h-[57px] gap-2.5 px-7"
                         >
-                            Become a Early Customer
+                            Become a Founding User
                             <ArrowIcon />
                         </Button>
 
