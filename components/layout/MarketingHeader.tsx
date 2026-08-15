@@ -97,7 +97,7 @@ export function MarketingHeader() {
             href={FOUNDING_CUSTOMER_URL}
             className="min-h-12 px-5 py-3 text-sm font-bold"
           >
-            Become a Founding Customer
+            Become a Founding User
           </Button>
         </div>
 
@@ -197,7 +197,7 @@ export function MarketingHeader() {
               href={FOUNDING_CUSTOMER_URL}
               className="mt-3 min-h-12 w-full px-5 py-3 text-sm font-bold"
             >
-              Become a Founding Customer
+              Become a Founding User
             </Button>
           </nav>
         </div>

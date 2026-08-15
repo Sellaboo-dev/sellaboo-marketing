@@ -38,7 +38,7 @@ You may voluntarily provide information when you:
 
 - Create an account
 - Complete forms on our website
-- Apply to become a Founding Customer
+- Apply to become a Founding User
 - Contact us by email or through our website
 - Communicate with our support team
 
