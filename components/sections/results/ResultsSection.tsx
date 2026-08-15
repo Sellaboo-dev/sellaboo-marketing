@@ -27,9 +27,9 @@ export function ResultsSection() {
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[#5F6678]">
-              Sellaboo helps home service businesses protect and maximizeevery opportunity,
-              while you stay focused on current customers, and get more value from the leads you
-              already generate.
+              Sellaboo helps home service businesses nurture and maximize every opportunity,
+              while you stay focused on servingcurrent customers, getting more revenue from the leads you
+              already have.
             </p>
           </div>
         </Reveal>
