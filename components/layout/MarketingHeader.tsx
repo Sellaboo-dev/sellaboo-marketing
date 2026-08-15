@@ -64,11 +64,13 @@ export function MarketingHeader() {
           </a>
 
           <a
-            href="#founding-customers"
+            href="#app.sellaboo.com/pricing"
             className="text-sm font-semibold text-[#555d70] transition-colors hover:text-[var(--color-primary)]"
           >
-            Founding Customers
+            Pricing
           </a>
+          
+      
         </nav>
 
         <Button
