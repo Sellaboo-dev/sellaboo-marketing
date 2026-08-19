@@ -64,9 +64,9 @@ export function HeroSection() {
           </div>
 
           <h1 className="mx-auto max-w-[710px] font-[var(--font-heading)] text-[clamp(44px,5.8vw,78px)] font-extrabold leading-[1.045] tracking-[-0.055em] text-[var(--color-heading)] lg:mx-0">
-            You deserve the most from{" "}
+            Win more jobs with{" "}
             <span className="relative inline-block text-[var(--color-primary)]">
-              every lead.
+              Sellaboo.
               <span
                 aria-hidden="true"
                 className="absolute -bottom-1 left-[1%] right-[2%] -z-10 h-2.5 -rotate-1 rounded-full bg-[linear-gradient(90deg,rgba(63,58,100,0.08),rgba(24,182,126,0.2))]"
@@ -75,10 +75,10 @@ export function HeroSection() {
           </h1>
 
           <p className="mx-auto mt-7 max-w-[610px] text-[clamp(17px,1.55vw,20px)] leading-[1.7] text-[var(--color-body)] lg:mx-0">
-            Your team works hard to earn every new lead. Sellaboo
-            helps home service businesses stay consistently connected
-            with those opportunities—so fewer promising conversations
-            are forgotten when the workday gets busy.
+            You work hard for every lead. Sellaboo
+            helps home service businesses win more jobs by keeping your
+            name in front of potential customers for you, while
+            you focus on running your business.
           </p>
 
           <div className="mt-10 flex flex-col items-stretch justify-center gap-3.5 sm:flex-row sm:items-center lg:justify-start">
