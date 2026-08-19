@@ -55,13 +55,13 @@ export function ProblemSection() {
           </div>
 
           <h2 className="font-[var(--font-heading)] text-[clamp(36px,5vw,58px)] font-extrabold leading-[1.08] tracking-[-0.045em] text-[var(--color-heading)]">
-            Leads usually aren’t lost because your team doesn’t care.
+            The next job usually isn't lost because your team doesn’t care.
           </h2>
 
           <p className="mx-auto mt-6 max-w-[700px] text-[clamp(17px,1.6vw,20px)] leading-[1.75] text-[var(--color-body)]">
-            They’re lost because you get busy.
-            Sellaboo keeps you in front of every lead and gives every lead a clear next
-            step, even when your team is busy serving customers.
+            It's lost because you get busy and forget to stay in touch.
+            Sellaboo keeps you in front of every lead, ahead of your competition,
+            even when your team is busy serving customers.
           </p>
         </div>
 
