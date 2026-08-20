@@ -28,11 +28,12 @@ export function FinalCtaSection() {
               id="final-cta-heading"
               className="mt-4 font-[family:var(--font-manrope)] text-4xl font-bold tracking-[-0.04em] text-[#181A24] sm:text-5xl lg:text-6xl"
             >
-              Stop letting good leads go cold
+              Start converting more leads today
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[#5F6678]">
-              Sellaboo keeps follow-up moving so your team can stay focused on
+              Make Sellaboo keep follow-up active so your new leads 
+              become your next customers, while your team stays focused on
               serving customers, closing more opportunities, and running the
               business.
             </p>
