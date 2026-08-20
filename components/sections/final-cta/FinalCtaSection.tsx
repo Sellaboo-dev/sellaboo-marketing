@@ -40,7 +40,7 @@ export function FinalCtaSection() {
 
             <div className="mt-10 flex flex-col items-stretch justify-center gap-3.5 sm:flex-row sm:items-center">
               <Button
-                href="app.sellaboo.com/pricing"
+                href="https://app.sellaboo.com/pricing"
                 className="min-h-[57px] gap-2.5 px-6 shadow-[0_14px_34px_rgba(63,58,100,0.24)] hover:shadow-[0_19px_42px_rgba(63,58,100,0.29)]"
               >
                 Get Started Now
