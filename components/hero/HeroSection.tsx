@@ -76,7 +76,7 @@ export function HeroSection() {
 
           <p className="mx-auto mt-7 max-w-[610px] text-[clamp(17px,1.55vw,20px)] leading-[1.7] text-[var(--color-body)] lg:mx-0">
             You work hard for every lead. Sellaboo
-            helps home service businesses win more jobs by keeping your
+            helps small business owners win more jobs by keeping your
             name in front of potential customers for you, until they're ready to buy,
             while you focus on running your business.
           </p>
