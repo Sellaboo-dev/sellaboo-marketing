@@ -28,11 +28,11 @@ export function FinalCtaSection() {
               id="final-cta-heading"
               className="mt-4 font-[family:var(--font-manrope)] text-4xl font-bold tracking-[-0.04em] text-[#181A24] sm:text-5xl lg:text-6xl"
             >
-              Start converting more leads today
+              Start growing your business today
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[#5F6678]">
-              Make Sellaboo keep follow-up active so your new leads 
+              Let Sellaboo keep nurturing your leads, so your new leads 
               become your next customers, while your team stays focused on
               serving customers, closing more opportunities, and running the
               business.
@@ -43,12 +43,12 @@ export function FinalCtaSection() {
                 href={FOUNDING_CUSTOMER_URL}
                 className="min-h-[57px] gap-2.5 px-6 shadow-[0_14px_34px_rgba(63,58,100,0.24)] hover:shadow-[0_19px_42px_rgba(63,58,100,0.29)]"
               >
-                Become a Founding User
+                Get Started Now
                 <ArrowIcon />
               </Button>
 
               <Button
-                href="/demo"
+                href="app.sellaboo.com/pricing"
                 variant="secondary"
                 className="min-h-[57px] gap-2.5 px-6 shadow-[0_10px_30px_rgba(42,45,76,0.07)]"
               >
