@@ -63,7 +63,7 @@ export function HeroSection() {
             The lead follow-up system for home service businesses
           </div>
 
-          <h1 className="mx-auto max-w-[710px] font-[var(--font-heading)] text-[clamp(44px,5.8vw,78px)] font-extrabold leading-[1.045] tracking-[-0.055em] text-[var(--color-heading)] lg:mx-0">
+          <h1 className="mx-auto max-w-[710px] font-[var(--font-heading)] text-[clamp(44px,5.8vw,56px)] font-extrabold leading-[1.045] tracking-[-0.055em] text-[var(--color-heading)] lg:mx-0">
             Email marketing and prospect follow up{" "}
             <span className="relative inline-block text-[var(--color-primary)]">
               for the busy small business owner.
