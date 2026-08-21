@@ -64,7 +64,7 @@ export function HeroSection() {
           </div>
 
           <h1 className="mx-auto max-w-[710px] font-[var(--font-heading)] text-[clamp(44px,5.8vw,64px)] font-extrabold leading-[1.045] tracking-[-0.055em] text-[var(--color-heading)] lg:mx-0">
-            Intelligent automated customer nurture{" "}
+            The easiest marketing tool in the world{" "}
             <span className="relative inline-block text-[var(--color-primary)]">
               for busy small business owners.
               <span
@@ -75,6 +75,7 @@ export function HeroSection() {
           </h1>
 
           <p className="mx-auto mt-7 max-w-[610px] text-[clamp(17px,1.55vw,20px)] leading-[1.7] text-[var(--color-body)] lg:mx-0">
+            Not a complicated, expensive, or time-consuming email marketing platform. 
             You work hard for every lead but many owners are too busy to 
             give them the attention they need. Sellaboo
             helps small business owners win more jobs by keeping your
