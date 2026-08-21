@@ -79,7 +79,8 @@ export function HeroSection() {
             Sellaboo's one-click marketing system helps
             small business owners win more jobs by keeping your
             business in front of potential customers, until they're ready to buy,
-            while you focus on running your business.
+            while you focus on running your business. Nothing to learn, setup, or write.
+            Just one-click and Sellaboo does the rest. It's that simple.
           </p>
 
           <div className="mt-10 flex flex-col items-stretch justify-center gap-3.5 sm:flex-row sm:items-center lg:justify-start">
