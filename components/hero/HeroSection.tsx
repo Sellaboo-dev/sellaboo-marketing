@@ -76,8 +76,8 @@ export function HeroSection() {
 
           <p className="mx-auto mt-7 max-w-[610px] text-[clamp(17px,1.55vw,20px)] leading-[1.7] text-[var(--color-body)] lg:mx-0">
             Not a complicated, expensive, or time-consuming email marketing platform. 
-            You work hard for every lead but many owners are too busy to 
-            give them the attention they need. Sellaboo
+            You work hard for every lead but business owners are too busy to 
+            learn another software tool. Sellaboo
             helps small business owners win more jobs by keeping your
             name in front of potential customers for you, until they're ready to buy,
             while you focus on running your business.
