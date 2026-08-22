@@ -75,11 +75,10 @@ export function HeroSection() {
           </h1>
 
           <p className="mx-auto mt-7 max-w-[610px] text-[clamp(17px,1.55vw,20px)] leading-[1.7] text-[var(--color-body)] lg:mx-0">
-            Not another complicated, expensive, or time-consuming email marketing platform. 
-            Sellaboo's one-click marketing system helps
-            small business owners win more jobs by keeping your
-            business in front of potential customers, until they're ready to buy,
-            while you focus on running your business. Nothing to learn, setup, or write.
+            Sellaboo helps businesses get more revenue from the leads 
+            they're already paying to generate. Turns more leads into 
+            customers - automatically. Built for busy business owners who 
+            want to focus on running their business instead of chasing leads.
             Just one-click and Sellaboo does the rest. It's that simple.
           </p>
 
