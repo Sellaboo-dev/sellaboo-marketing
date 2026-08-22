@@ -64,7 +64,7 @@ export function HeroSection() {
           </div>
 
           <h1 className="mx-auto max-w-[710px] font-[var(--font-heading)] text-[clamp(44px,5.8vw,64px)] font-extrabold leading-[1.045] tracking-[-0.055em] text-[var(--color-heading)] lg:mx-0">
-            The easiest automated marketing tool{" "}
+            The lead follow-up platform{" "}
             <span className="relative inline-block text-[var(--color-primary)]">
               for busy small business owners.
               <span
