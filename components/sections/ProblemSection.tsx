@@ -3,7 +3,7 @@ import { Container } from "@/components/ui/Container";
 const problems = [
   {
     number: "01",
-    title: "The workday gets busy",
+    title: "You get busy",
     description:
       "Calls, jobs, estimates, and customer issues compete for attention. Even strong teams can lose track of who needs the next follow-up.",
   },
@@ -61,7 +61,8 @@ export function ProblemSection() {
           <p className="mx-auto mt-6 max-w-[700px] text-[clamp(17px,1.6vw,20px)] leading-[1.75] text-[var(--color-body)]">
             Sellaboo automatically follows up with prospects 
             who aren't ready to buy yet—so more of the leads 
-            you already have turn into paying customers.
+            you already have turn into paying customers instead
+            of being lost or going to competitors.
           </p>
         </div>
 

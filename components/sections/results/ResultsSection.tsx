@@ -23,7 +23,7 @@ export function ResultsSection() {
               id="results-heading"
               className="font-[family:var(--font-manrope)] text-4xl font-bold tracking-[-0.03em] text-[#181A24] sm:text-5xl"
             >
-              More conversations. More appointments. More booked jobs.
+              More conversations. More booked jobs. More closed sales. More revenue.
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[#5F6678]">
