@@ -64,7 +64,7 @@ export function HeroSection() {
           </div>
 
           <h1 className="mx-auto max-w-[710px] font-[var(--font-heading)] text-[clamp(44px,5.8vw,64px)] font-extrabold leading-[1.045] tracking-[-0.055em] text-[var(--color-heading)] lg:mx-0">
-            The lead follow-up platform{" "}
+            Convert your "not ready" leads with the lead follow-up platform{" "}
             <span className="relative inline-block text-[var(--color-primary)]">
               for busy small business owners.
               <span
@@ -75,11 +75,9 @@ export function HeroSection() {
           </h1>
 
           <p className="mx-auto mt-7 max-w-[610px] text-[clamp(17px,1.55vw,20px)] leading-[1.7] text-[var(--color-body)] lg:mx-0">
-            Sellaboo helps businesses get more revenue from the leads 
-            they're already generating. Turn more leads into 
-            customers - automatically. Built for busy business owners who 
-            want to focus on running their business instead of chasing leads.
-            Just one-click and Sellaboo does the rest. It's that simple.
+            Businesses now get more revenue from the leads 
+            they're already generating. Built for busy small business owners who 
+            need to focus on running their business instead of chasing leads.        
           </p>
 
           <div className="mt-10 flex flex-col items-stretch justify-center gap-3.5 sm:flex-row sm:items-center lg:justify-start">
