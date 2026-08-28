@@ -6,7 +6,7 @@ import { ArrowIcon } from "@/components/icons/ArrowIcon";
 import { PlayIcon } from "@/components/icons/PlayIcon";
 
 const industries = [
-  "Real Estae",
+  "Real Estate",
   "Mortgage Lending",
   "HVAC",
   "Plumbing",
