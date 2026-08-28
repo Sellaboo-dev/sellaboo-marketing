@@ -63,7 +63,7 @@ export function HeroSection() {
         <div className="relative z-10 text-center lg:text-left">
           <div className="mb-7 inline-flex items-center gap-2.5 rounded-full border border-[rgba(63,58,100,0.13)] bg-white/80 px-3.5 py-2 text-[11px] font-extrabold uppercase tracking-[0.055em] text-[var(--color-primary)] shadow-[0_10px_30px_rgba(42,45,76,0.07)]">
             <span className="size-2 rounded-full bg-[var(--color-success)] shadow-[0_0_0_5px_rgba(24,182,126,0.12)]" />
-            The lead follow-up system for small businesses
+            The automated lead follow-up platform for small business
           </div>
 
           <h1 className="mx-auto max-w-[710px] font-[var(--font-heading)] text-[clamp(44px,5.8vw,64px)] font-extrabold leading-[1.045] tracking-[-0.055em] text-[var(--color-heading)] lg:mx-0">
