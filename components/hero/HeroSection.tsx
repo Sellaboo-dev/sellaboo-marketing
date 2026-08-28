@@ -67,7 +67,7 @@ export function HeroSection() {
           </div>
 
           <h1 className="mx-auto max-w-[710px] font-[var(--font-heading)] text-[clamp(44px,5.8vw,64px)] font-extrabold leading-[1.045] tracking-[-0.055em] text-[var(--color-heading)] lg:mx-0">
-            Close mjore of your "not ready yet" leads with{" "}
+            Close your "not ready yet" leads with{" "}
             <span className="relative inline-block text-[var(--color-primary)]">
               the automated lead follow-up platform.
               <span
