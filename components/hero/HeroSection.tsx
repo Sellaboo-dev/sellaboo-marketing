@@ -8,6 +8,7 @@ import { PlayIcon } from "@/components/icons/PlayIcon";
 const industries = [
   "Real Estate",
   "Mortgage Lending",
+  "Insurance",
   "HVAC",
   "Plumbing",
   "Electrical",
