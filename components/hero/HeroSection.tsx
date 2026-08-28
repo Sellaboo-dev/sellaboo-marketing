@@ -6,6 +6,8 @@ import { ArrowIcon } from "@/components/icons/ArrowIcon";
 import { PlayIcon } from "@/components/icons/PlayIcon";
 
 const industries = [
+  "Real Estae",
+  "Mortgage Lending",
   "HVAC",
   "Plumbing",
   "Electrical",
@@ -17,7 +19,7 @@ function IndustryProof() {
   return (
     <div id="who-its-for">
       <p className="mb-3 text-[11px] font-bold uppercase tracking-[0.05em] text-[#9299aa]">
-        Designed specifically for growing home service businesses
+        Designed specifically for growing small businesses
       </p>
 
       <div className="flex flex-wrap items-center justify-center gap-2.5 lg:justify-start">
