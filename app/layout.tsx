@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://sellaboo.com"),
 
   title: {
-    default: "Sellaboo | Lead Follow-Up for Home Service Businesses",
+    default: "Sellaboo | How to Stop Losing Good Leads to Your Competition",
     template: "%s | Sellaboo",
   },
 
@@ -37,14 +37,14 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://sellaboo.com",
     siteName: "Sellaboo",
-    title: "Sellaboo | Lead Follow-Up for Home Service Businesses",
+    title: "Sellaboo | How to Stop Losing Good Leads to Your Competition",
     description:
       "Keep every opportunity moving with consistent, organized follow-up built for home service businesses.",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Sellaboo | Lead Follow-Up for Home Service Businesses",
+    title: "Sellaboo | How to Stop Losing Good Leads to Your Competition",
     description:
       "Keep every opportunity moving with consistent, organized follow-up built for home service businesses.",
   },
