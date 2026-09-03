@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
 
   description:
-    "Sellaboo helps home service businesses keep leads engaged through consistent, organized follow-up while owners stay focused on running their business.",
+    "Sellaboo helps smallbusinesses keep leads engaged through consistent, organized follow-up while owners stay focused on running their business.",
 
   applicationName: "Sellaboo",
 
@@ -39,14 +39,14 @@ export const metadata: Metadata = {
     siteName: "Sellaboo",
     title: "Sellaboo | How to Stop Losing Good Leads to Your Competition",
     description:
-      "Keep every opportunity moving with consistent, organized follow-up built for home service businesses.",
+      "Keep every opportunity moving with consistent, organized follow-up built for smallbusinesses.",
   },
 
   twitter: {
     card: "summary_large_image",
     title: "Sellaboo | How to Stop Losing Good Leads to Your Competition",
     description:
-      "Keep every opportunity moving with consistent, organized follow-up built for home service businesses.",
+      "Keep every opportunity moving with consistent, organized follow-up built for small businesses.",
   },
 
   robots: {
