@@ -78,7 +78,9 @@ export function HeroSection() {
           </h1>
 
           <p className="mx-auto mt-7 max-w-[610px] text-[clamp(17px,1.55vw,20px)] leading-[1.7] text-[var(--color-body)] lg:mx-0">
-            Sellaboos automated solution converts leads into customers 
+            Business owners and sales agents close 38% more
+            deals with Sellaboo's automated solution 
+            that converts leads into customers 
             while you focus on running your business.        
           </p>
 
