@@ -22,11 +22,11 @@ export function WhySellabooSection() {
                             id="why-sellaboo-heading"
                             className="mt-4 font-[family:var(--font-manrope)] text-4xl font-bold tracking-[-0.04em] text-[#181A24] sm:text-5xl"
                         >
-                            Lead nurture without the hours of learning and setup
+                            Lead nurture without the hours of learning and setting up a complicated CRM.
                         </h2>
 
                         <p className="mt-6 text-lg leading-8 text-[#5F6678]">
-                            Sellaboo is built to help home service businesses start consistent
+                            Sellaboo is built to help small businesses owners start consistent
                             lead follow-up quickly, without complicated campaign builders,
                             workflows, or unnecessary configuration.
                         </p>
