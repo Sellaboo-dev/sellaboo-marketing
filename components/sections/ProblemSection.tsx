@@ -51,7 +51,7 @@ export function ProblemSection() {
       <Container className="lg:max-w-[1180px]">
         <div className="mx-auto max-w-[790px] text-center">
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-[rgba(63,58,100,0.12)] bg-[var(--color-primary-light)] px-3.5 py-2 text-[11px] font-extrabold uppercase tracking-[0.06em] text-[var(--color-primary)]">
-            Why opportunities get lost
+            Doing what CRM's don't
           </div>
 
           <h2 className="font-[var(--font-heading)] text-[clamp(36px,5vw,58px)] font-extrabold leading-[1.08] tracking-[-0.045em] text-[var(--color-heading)]">
