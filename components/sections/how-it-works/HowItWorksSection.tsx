@@ -114,7 +114,7 @@ export function HowItWorksSection() {
                             “Here's your CRM now. Configure your lead sources, 
                             stages, smart lists, action plans, campaigns, routing, 
                             workflows, texts, templates, tasks…” Here's Sellaboo...
-                            enter your lead, click a button, and Sellaboo does the rest. Done!
+                            enter your lead, click a button, done! Sellaboo does the rest.
                         </p>
                     </Reveal>
                 </div>
