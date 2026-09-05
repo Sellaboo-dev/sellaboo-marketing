@@ -81,7 +81,7 @@ export function HeroSection() {
             Sellaboo - succeeding where CRM's fail... 
             smartly automating the nurturing and converting of 
             leads without manual input, hours of setup, and 
-            message writing. Nurturing and converting leads your 
+            message writing. Sellaboo nurtures and converts your leads 
             into customers while you focus on running your business.        
           </p>
 
