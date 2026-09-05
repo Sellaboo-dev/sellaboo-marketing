@@ -23,9 +23,7 @@ export function ResultsSection() {
               id="results-heading"
               className="font-[family:var(--font-manrope)] text-4xl font-bold tracking-[-0.03em] text-[#181A24] sm:text-5xl"
             >
-              For the Agent who doesn't want to learn or manage a complicated CRM but still
-              wants automated lead nurture and conversion while you're focusing
-              on serving current customers. conversations = More booked jobs = More closed sales = More revenue.
+              Automated lead nurture and conversion without the complicated learning curve of a CRM.
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[#5F6678]">
