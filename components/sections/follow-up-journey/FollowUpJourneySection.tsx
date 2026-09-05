@@ -21,12 +21,12 @@ export function FollowUpJourneySection() {
             id="follow-up-journey-heading"
             className="mt-4 font-[family:var(--font-manrope)] text-4xl font-bold tracking-[-0.04em] text-[#181A24] sm:text-5xl"
           >
-            Follow-up starts in seconds
+            Your Lead Nurture starts in seconds
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-[#5F6678]">
-            One simple workflow moves a new opportunity into consistent
-            follow-up, while you stay focused on running your business.
+            One simple click initiates a complete workflow and moves every new lead into consistent,
+            reliable, follow-up, while you stay focused on running your business.
           </p>
         </div>
 
