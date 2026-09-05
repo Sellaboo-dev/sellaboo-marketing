@@ -28,7 +28,7 @@ export function WhySellabooSection() {
                         <p className="mt-6 text-lg leading-8 text-[#5F6678]">
                             Sellaboo is built to help small businesses owners start consistent
                             lead follow-up quickly, without complicated campaign builders,
-                            workflows, or unnecessary configuration.
+                            message writing, workflows, or unnecessary configuration.
                         </p>
                     </div>
 
