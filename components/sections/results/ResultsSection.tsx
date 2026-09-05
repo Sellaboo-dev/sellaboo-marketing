@@ -16,7 +16,7 @@ export function ResultsSection() {
         <Reveal>
           <div className="mx-auto max-w-3xl text-center">
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.16em] text-[#18B67E]">
-              Built for better follow-up
+              Built for busy business owners
             </p>
 
             <h2
