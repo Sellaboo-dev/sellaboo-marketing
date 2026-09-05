@@ -78,10 +78,11 @@ export function HeroSection() {
           </h1>
 
           <p className="mx-auto mt-7 max-w-[610px] text-[clamp(17px,1.55vw,20px)] leading-[1.7] text-[var(--color-body)] lg:mx-0">
-            Small business owners and sales agents close on 
-            average 38% more deals with Sellaboo's automated 
-            solution that converts leads into customers 
-            while you focus on running your business.        
+            Sellaboo - succeeding where CRM's fail... 
+            smartly automating the nurturing and converting of 
+            leads without manual input, hours of setup, and 
+            message writing. Nurturing and converting leads your 
+            into customers while you focus on running your business.        
           </p>
 
           <div className="mt-10 flex flex-col items-stretch justify-center gap-3.5 sm:flex-row sm:items-center lg:justify-start">
