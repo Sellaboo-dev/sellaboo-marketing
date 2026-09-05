@@ -23,12 +23,16 @@ export function ResultsSection() {
               id="results-heading"
               className="font-[family:var(--font-manrope)] text-4xl font-bold tracking-[-0.03em] text-[#181A24] sm:text-5xl"
             >
-              More conversations = More booked jobs = More closed sales = More revenue.
+              For the Agent who doesn't want to learn or manage a complicated CRM but still
+              wants automated lead nurture and conversion while you're focusing
+              on serving current customers. conversations = More booked jobs = More closed sales = More revenue.
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[#5F6678]">
-              Sellaboo helps home service businesses follow-up, nurture and maximize every opportunity,
-              helping you create new revenue, while you stay focused on serving current customers.
+              For the Agent who doesn't want to learn a complicated CRM but still
+              wants automated lead nurture and conversion while you're focusing
+              on serving current customers. More nurturing = More conversations = 
+              More booked jobs = More closed sales = More revenue.
             </p>
           </div>
         </Reveal>
