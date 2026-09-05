@@ -21,7 +21,7 @@ export function FinalCtaSection() {
 
           <div className="relative mx-auto max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#18B67E]">
-              Built for Consistent Follow-Up
+              Built for Consistent Lead Nurture and Conversion
             </p>
 
             <h2
@@ -33,7 +33,7 @@ export function FinalCtaSection() {
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[#5F6678]">
               Let Sellaboo keep nurturing your leads, so your new leads 
-              become your next customers, while your team stays focused on
+              become your next customers, while you and your team stays focused on
               serving customers, closing more opportunities, and running the
               business.
             </p>
