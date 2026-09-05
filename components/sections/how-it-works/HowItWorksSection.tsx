@@ -99,7 +99,7 @@ export function HowItWorksSection() {
                         <h2 className="font-[var(--font-heading)] text-[clamp(40px,5.5vw,66px)] font-extrabold leading-[1.04] tracking-[-0.05em] text-[var(--color-heading)]">
                             Every Lead.{" "}
                             <span className="bg-[linear-gradient(90deg,var(--color-primary),var(--color-success))] bg-clip-text text-transparent">
-                                Five simple steps.
+                                One simple click.
                             </span>
                         </h2>
                     </Reveal>
@@ -111,8 +111,10 @@ export function HowItWorksSection() {
                         duration={700}
                     >
                         <p className="mx-auto mt-6 max-w-[710px] text-[clamp(17px,1.6vw,20px)] leading-[1.72] text-[var(--color-body)]">
-                            Every lead moves through the same journey. Sellaboo
-                            quietly handles the follow-up FOR YOU until the customer is ready and your team is needed.
+                            “Here's your CRM now. Configure your lead sources, 
+                            stages, smart lists, action plans, campaigns, routing, 
+                            workflows, texts, templates, tasks…” Here's Sellaboo...
+                            enter your lead, click a button, and Sellaboo does the rest. Done!
                         </p>
                     </Reveal>
                 </div>
