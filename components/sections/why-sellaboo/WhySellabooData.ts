@@ -8,23 +8,23 @@ export type WhySellabooFeature = {
 export const whySellabooFeatures: readonly WhySellabooFeature[] = [
   {
     id: "lead-follow-up-system",
-    eyebrow: "Built for Home Service Businesses",
+    eyebrow: "Built for Small Businesses",
     title: "A Dedicated Lead Follow-Up System",
     description:
-      "Sellaboo is a dedicated Lead Follow-Up System that keeps every customer conversation moving while you're busy running your business.",
+      "Sellaboo is a dedicated Lead Nurture System that keeps every customer conversation moving while you're busy running your business.",
   },
   {
     id: "start-in-seconds",
     eyebrow: "Start Following Up in Seconds",
     title: "Follow-Up Starts in Seconds",
     description:
-      "Enroll a new lead, click one button and Sellaboo immediately begins consistent follow-up, letting you get back to serving customers instead of spending hours configuring complicated software.",
+      "Enroll a new lead, click one button and Sellaboo immediately begins consistent lead nurture, letting you get back to serving customers instead of spending hours configuring complicated software.",
   },
   {
     id: "focused",
     eyebrow: "Focused on What Matters",
     title: "Purpose-Built to Solve One Important Problem",
     description:
-      "Sellaboo isn't trying to replace every tool you already use. It's designed to do one job exceptionally well—help you consistently follow up with every lead that matters.",
+      "Sellaboo isn't designed to replace every tool you already use. It's designed to do one job exceptionally well—help you consistently nurture every lead that matters.",
   },
 ];

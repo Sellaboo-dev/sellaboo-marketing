@@ -7,7 +7,7 @@ import { Container } from "@/components/ui/Container";
 export const metadata: Metadata = {
   title: "Book a Live Sellaboo Demo",
   description:
-    "Schedule a live walkthrough of Sellaboo and see how automated follow-up helps home service businesses keep more opportunities moving.",
+    "Schedule a live walkthrough of Sellaboo and see how automated lead nurture helps businesses keep more opportunities moving.",
 };
 
 const CALENDLY_URL =
@@ -52,7 +52,7 @@ export default function BookPage() {
               </h1>
 
               <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[#5F6678]">
-                See exactly how Sellaboo helps home service businesses keep more
+                See exactly how Sellaboo helps businesses keep more
                 opportunities moving while owners stay focused on running their
                 business.
               </p>

@@ -9,14 +9,14 @@ import { FOUNDING_CUSTOMER_URL } from "@/lib/marketing-links";
 export const metadata: Metadata = {
   title: "Watch How Sellaboo Works",
   description:
-    "See how Sellaboo helps home service businesses keep leads engaged through consistent, organized follow-up.",
+    "See how Sellaboo helps businesses keep leads engaged through consistent, organized lead nurture.",
 };
 
 const benefits = [
   {
     title: "Keep every opportunity moving",
     description:
-      "Consistent follow-up continues even while your team is focused on serving customers.",
+      "Consistent lead nurture continues even while your team is focused on serving customers.",
   },
   {
     title: "See what happens next",
@@ -26,7 +26,7 @@ const benefits = [
   {
     title: "Stay in control",
     description:
-      "Pause, resume, or advance follow-up when the needs of a lead or your business change.",
+      "Pause, resume, or advance lead nurture when the needs of a lead or your business change.",
   },
 ];
 
@@ -67,7 +67,7 @@ export default function DemoPage() {
               </h1>
 
               <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[#5F6678]">
-                See how Sellaboo helps home service businesses stay connected
+                See how Sellaboo helps businesses stay connected
                 with new leads while owners and their teams remain focused on
                 serving customers and running the business.
               </p>
