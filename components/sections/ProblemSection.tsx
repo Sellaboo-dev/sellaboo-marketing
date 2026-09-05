@@ -55,14 +55,13 @@ export function ProblemSection() {
           </div>
 
           <h2 className="font-[var(--font-heading)] text-[clamp(36px,5vw,58px)] font-extrabold leading-[1.08] tracking-[-0.045em] text-[var(--color-heading)]">
-            Stop letting good leads go cold.
+            You already paid for the lead. Don't lose it because they weren't ready today.
           </h2>
 
           <p className="mx-auto mt-6 max-w-[700px] text-[clamp(17px,1.6vw,20px)] leading-[1.75] text-[var(--color-body)]">
-            Sellaboo automatically follows up with prospects 
-            who aren't ready to buy yet—so more of the leads 
-            you already have turn into paying customers instead
-            of being lost or going to competitors.
+            Sellaboo keeps following up with buyer and seller leads 
+            until they're ready for a conversation. Your leads. Your brand. 
+            Automatic follow-up.
           </p>
         </div>
 
