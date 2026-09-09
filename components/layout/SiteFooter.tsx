@@ -10,9 +10,9 @@ export function SiteFooter() {
                     </h3>
 
                     <p className="mt-4 text-sm leading-6 text-[#5F6678]">
-                        The Lead Nurture and Conversion Tool
+                        The Lead Nurture Tool for 
                         <br />
-                        for Small Businesses.
+                        for busy real estate professionals..
                     </p>
                 </div>
 

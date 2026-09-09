@@ -63,7 +63,7 @@ export function ProblemSection() {
             leads but doesn't want to spend hours learning, configuring, 
             and managing a complicated CRM.
             Sellaboo keeps following up with buyer and seller leads 
-            until they're ready. Your leads. Your brand. 
+            until they're ready, with one-click. Your leads. Your brand. 
             Automatic follow-up.
           </p>
         </div>
