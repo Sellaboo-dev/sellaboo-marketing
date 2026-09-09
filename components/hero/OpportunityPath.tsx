@@ -182,8 +182,8 @@ export function OpportunityPath() {
           </div>
 
           <div className={styles.nodeCopy}>
-            <span>New estimate request</span>
-            <strong>Air conditioner stopped cooling</strong>
+            <span>New buyer lead</span>
+            <strong>Interested in single family home</strong>
             <small>Received 2 minutes ago</small>
           </div>
         </article>
@@ -196,7 +196,7 @@ export function OpportunityPath() {
           <div className={styles.nodeCopy}>
             <span>New lead</span>
             <strong>Jordan Miller</strong>
-            <small>Ready for follow-up</small>
+            <small>Ready for nurturing</small>
           </div>
 
           <em>New</em>
@@ -211,7 +211,7 @@ export function OpportunityPath() {
 
           <div className={styles.nodeCopy}>
             <span>Sellaboo</span>
-            <strong>Follow-up is active</strong>
+            <strong>Lead nurture campaign is active</strong>
             <small>Every next step stays visible</small>
           </div>
         </article>
@@ -230,8 +230,8 @@ export function OpportunityPath() {
           </div>
 
           <div className={styles.nodeCopy}>
-            <span>Consistent follow-up</span>
-            <strong>The conversation keeps moving</strong>
+            <span>Consistent lead nurturing</span>
+            <strong>The conversation keeps improving</strong>
             <small>Sent automatically, monitored clearly</small>
           </div>
 
