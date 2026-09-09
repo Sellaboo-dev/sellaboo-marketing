@@ -55,7 +55,10 @@ export function ProblemSection() {
           </div>
 
           <h2 className="font-[var(--font-heading)] text-[clamp(36px,5vw,58px)] font-extrabold leading-[1.08] tracking-[-0.045em] text-[var(--color-heading)]">
-            Simple, hands-off nurture for leads who aren't ready yet. Don't lose them because they aren't ready today.
+            Only18% of Real Estate Agents actually use the automated 
+            lead nurturing function of their CRM because it's too complicated.
+            Simple, hands-off nurturing for leads who aren't ready yet. 
+            Don't lose them because they aren't ready today.
           </h2>
 
           <p className="mx-auto mt-6 max-w-[700px] text-[clamp(17px,1.6vw,20px)] leading-[1.75] text-[var(--color-body)]">
