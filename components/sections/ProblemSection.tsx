@@ -55,7 +55,7 @@ export function ProblemSection() {
           </div>
 
           <h2 className="font-[var(--font-heading)] text-[clamp(36px,5vw,58px)] font-extrabold leading-[1.08] tracking-[-0.045em] text-[var(--color-heading)]">
-            Only18% of Real Estate Agents actually use the automated 
+            Only 18% of Real Estate Agents actually use the automated 
             lead nurturing function of their CRM because it's too complicated.
             Sellaboo is simple, effective, hands-off nurturing for leads who aren't ready yet. 
             Don't lose them because they aren't ready today.
