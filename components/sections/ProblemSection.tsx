@@ -60,9 +60,9 @@ export function ProblemSection() {
             </h2>
 
           <p className="mx-auto mt-6 max-w-[700px] text-[clamp(17px,1.6vw,20px)] leading-[1.75] text-[var(--color-body)]">
-            Sellaboo is simple, effective, hands-off nurturing for leads who aren't ready yet.
-            Built for Agents who know the importance of nurturing
-            leads but doesn't want to spend hours learning, configuring, deploying, 
+            Agents use Sellaboo because it's simple, focused, time-saving, hands-off nurturing for leads 
+            who aren't ready yet. Built for Agents who know the importance of nurturing
+            leads but don't want to spend hours learning, configuring, deploying, 
             and managing their complicated CRM.
             Sellaboo keeps following up with buyer and seller leads 
             until they're ready, with one-click. Your leads. Your brand. 
