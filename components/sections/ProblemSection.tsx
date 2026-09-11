@@ -56,15 +56,14 @@ export function ProblemSection() {
 
           <h2 className="font-[var(--font-heading)] text-[clamp(36px,5vw,58px)] font-extrabold leading-[1.08] tracking-[-0.045em] text-[var(--color-heading)]">
             Only 18% of Real Estate Agents actually use the automated 
-            lead nurturing function of their CRM because it's too complicated.
-            Sellaboo is simple, effective, hands-off nurturing for leads who aren't ready yet. 
-            Don't lose them because they aren't ready today.
-          </h2>
+            lead nurturing function of their CRM because it's complicated and time consuming.
+            </h2>
 
           <p className="mx-auto mt-6 max-w-[700px] text-[clamp(17px,1.6vw,20px)] leading-[1.75] text-[var(--color-body)]">
-            Built for the Agent who knows the importance of nurturing
-            leads but doesn't want to spend hours learning, configuring, 
-            and managing a complicated CRM.
+            Sellaboo is simple, effective, hands-off nurturing for leads who aren't ready yet.
+            Built for Agents who know the importance of nurturing
+            leads but doesn't want to spend hours learning, configuring, deploying, 
+            and managing their complicated CRM.
             Sellaboo keeps following up with buyer and seller leads 
             until they're ready, with one-click. Your leads. Your brand. 
             Automatic follow-up.

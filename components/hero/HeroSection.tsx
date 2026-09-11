@@ -79,7 +79,7 @@ export function HeroSection() {
 
           <p className="mx-auto mt-7 max-w-[610px] text-[clamp(17px,1.55vw,20px)] leading-[1.7] text-[var(--color-body)] lg:mx-0">
             Sellaboo - succeeding where CRM's fail... 
-            smartly automating the nurturing and converting of 
+            simplifying the nurturing of real estate  
             leads without the days of learning, setup, manual input, 
             message writing, and deployment. Sellaboo nurtures and converts your leads 
             into customers while you focus on running your business.        
