@@ -121,7 +121,7 @@ function LeadPreview() {
 
         <div className="min-w-0">
           <span className="block text-[9px] font-extrabold uppercase tracking-[0.05em] text-[#979eae]">
-            New estimate request
+            Home information request
           </span>
 
           <strong className="mt-1 block text-[12px] text-[var(--color-heading)]">
@@ -129,7 +129,7 @@ function LeadPreview() {
           </strong>
 
           <p className="mt-2 text-[10px] leading-4 text-[var(--color-body)]">
-            Air conditioner stopped cooling
+            Single family home, 3 bedrooms, 2 bathrooms
           </p>
         </div>
       </div>
@@ -249,7 +249,7 @@ function ReplyPreview() {
 
       <div className="mt-3 flex items-center justify-center gap-2 rounded-[10px] bg-[#eaf9f4] px-3 py-2 text-[9px] font-extrabold text-[#16825f]">
         <BellIcon />
-        Your team notified
+        Your team is notified
       </div>
 
       <p className="mt-3 text-center text-[8px] font-bold text-[#16825f]">
@@ -267,7 +267,7 @@ function BookedPreview() {
       </span>
 
       <strong className="mt-4 block text-[12px] text-[var(--color-heading)]">
-        Estimate scheduled
+        Showing scheduled
       </strong>
 
       <span className="mt-2 block text-[10px] font-semibold text-[#858c9c]">
