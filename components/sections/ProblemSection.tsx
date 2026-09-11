@@ -56,7 +56,7 @@ export function ProblemSection() {
 
           <h2 className="font-[var(--font-heading)] text-[clamp(36px,5vw,58px)] font-extrabold leading-[1.08] tracking-[-0.045em] text-[var(--color-heading)]">
             Most Agents don't actually use the automated 
-            lead nurturing function of their CRM because 
+            lead nurturing function of their CRM
             Reason - it's complicated and very time consuming.
             </h2>
 
