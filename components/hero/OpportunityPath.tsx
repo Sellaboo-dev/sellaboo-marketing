@@ -59,7 +59,7 @@ export function OpportunityPath() {
       <div className={styles.frame}>
         <div className={styles.label}>
           <span className={styles.liveDot} aria-hidden="true" />
-          One opportunity, kept moving
+          Every opportunity keeps moving for you, automatically, with one click.
         </div>
 
         <svg
