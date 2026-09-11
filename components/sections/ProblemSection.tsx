@@ -5,19 +5,19 @@ const problems = [
     number: "01",
     title: "You get busy",
     description:
-      "Calls, jobs, estimates, and customer issues compete for attention. Even strong teams can lose track of who needs the next follow-up.",
+      "Calls, showings, prospecting, and customer issues compete for attention. Even strong Agents and teams can lose track of who needs the next follow-up.",
   },
   {
     number: "02",
-    title: "Promising leads go quiet",
+    title: "Leads slip through the cracks",
     description:
-      "A lead who doesn't buy immediately is easy to get overlooked. Maybe the timing is off, they're unsure, or they're shopping competitors. People buy from those they trust, and consistent follow-up builds trust.",
+      "A lead who doesn't buy immediately is easy to get overlooked. Maybe the timing is off, they're unsure, or they're shopping other Agents. People buy from those they trust, and Sellaboo's lead nurture builds trust.",
   },
   {
     number: "03",
-    title: "Follow-up becomes inconsistent",
+    title: "Leads go cold",
     description:
-      "Without a clear system, the next message depends on someone remembering, finding the time, and knowing exactly what to send.",
+      "Without a clear system, the nurturing of leads depends on someone remembering, finding the time, and knowing exactly what to send.",
   },
 ];
 
