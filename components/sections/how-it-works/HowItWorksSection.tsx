@@ -161,9 +161,9 @@ export function HowItWorksSection() {
                         <p className="mt-4 font-[var(--font-heading)] text-[clamp(18px,2vw,24px)] font-extrabold leading-[1.45] tracking-[-0.025em] text-[var(--color-heading)] sm:mt-0">
                             Sellaboo doesn’t replace your team.{" "}
                             <span className="text-[#16825f]">
-                                It makes sure your business is kept in the game until your customer is ready.
-                                People buy from the Agent that communicates and keeps their name in front of them 
-                                until they're ready. Sellaboo does that for you, automatically, hands-off, and with one click.
+                                It makes sure your business is kept in the game until your buyer or seller is ready.
+                                People buy from the Agent that communicates and keeps their name in front of them consistently. 
+                                Sellaboo does that for you, automatically, consistently, relyably, and with one click.
                             </span>
                         </p>
                     </div>
