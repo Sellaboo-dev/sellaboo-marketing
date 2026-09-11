@@ -14,7 +14,7 @@ export const howItWorksSteps: HowItWorksStep[] = [
     eyebrow: "A lead comes in",
     title: "A customer reaches out.",
     description:
-      "A form is submitted, a phone call comes in, or someone requests an estimate.",
+      "A form is submitted, a phone call comes in, or someone requests a showing.",
   },
   {
     number: "02",
