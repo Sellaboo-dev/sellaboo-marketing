@@ -70,7 +70,7 @@ export function ProblemSection() {
             Why good leads get lost
           </div>
 
-          <h2 className="font-[var(--font-heading)] text-[clamp(36px,5vw,58px)] font-extrabold leading-[1.08] tracking-[-0.045em] text-white">
+          <h2 className="font-[var(--font-heading)] text-[clamp(36px,5vw,58px)] font-extrabold leading-[1.08] tracking-[-0.045em] !text-[#F1EFFF]">
             The problem isn't getting leads into your CRM.
             <br />
             <span className="bg-[linear-gradient(100deg,#C9C3FF_8%,#FFFFFF_48%,#6EE2B7_100%)] bg-clip-text text-transparent">
@@ -116,7 +116,7 @@ export function ProblemSection() {
                   />
                 </div>
 
-                <h3 className="mt-7 font-[var(--font-heading)] text-[23px] font-extrabold tracking-[-0.025em] text-white">
+                <h3 className="mt-7 font-[var(--font-heading)] text-[23px] font-extrabold tracking-[-0.025em] !text-white">
                   {problem.title}
                 </h3>
 
