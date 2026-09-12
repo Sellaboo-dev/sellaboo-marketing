@@ -39,7 +39,7 @@ function IndustryProof() {
 
 export function HeroSection() {
   return (
-    <section className="relative isolate overflow-hidden pb-20 pt-14 sm:pt-18 lg:pb-28 lg:pt-24">
+    <section className="relative isolate overflow-hidden pb-16 pt-10 sm:pt-14 lg:pb-20 lg:pt-16">
       <div
         aria-hidden="true"
         className="absolute inset-0 -z-30 bg-[linear-gradient(135deg,#F7F5FF_0%,#FFFFFF_43%,#F4FCF9_100%)]"
@@ -65,9 +65,9 @@ export function HeroSection() {
         className="absolute inset-0 -z-10 opacity-[0.32] [background-image:linear-gradient(rgba(85,75,145,0.035)_1px,transparent_1px),linear-gradient(90deg,rgba(85,75,145,0.035)_1px,transparent_1px)] [background-size:42px_42px] [mask-image:linear-gradient(to_bottom,black,transparent_78%)]"
       />
 
-      <Container className="grid items-center gap-16 lg:max-w-[1320px] lg:grid-cols-[minmax(0,0.92fr)_minmax(560px,1.08fr)] lg:gap-16">
+      <Container className="grid items-center gap-14 lg:max-w-[1320px] lg:grid-cols-[minmax(0,0.92fr)_minmax(560px,1.08fr)] lg:gap-16">
         <div className="relative z-10 text-center lg:text-left">
-          <div className="mb-7 inline-flex items-center gap-2.5 rounded-full border border-[#DCD8F3] bg-white/80 px-4 py-2.5 text-[11px] font-extrabold uppercase tracking-[0.08em] text-[#514B87] shadow-[0_10px_30px_rgba(71,61,124,0.08)] backdrop-blur-xl">
+          <div className="mb-5 inline-flex items-center gap-2.5 rounded-full border border-[#DCD8F3] bg-white/80 px-4 py-2.5 text-[11px] font-extrabold uppercase tracking-[0.08em] text-[#514B87] shadow-[0_10px_30px_rgba(71,61,124,0.08)] backdrop-blur-xl">
             <span className="relative flex size-2.5">
               <span className="absolute inline-flex size-full animate-ping rounded-full bg-[#18B67E] opacity-20" />
               <span className="relative inline-flex size-2.5 rounded-full bg-[#18B67E]" />
@@ -90,13 +90,13 @@ export function HeroSection() {
             </span>
           </h1>
 
-          <p className="mx-auto mt-7 max-w-[620px] text-[clamp(17px,1.55vw,20px)] leading-[1.72] text-[#5F6678] lg:mx-0">
+          <p className="mx-auto mt-5 max-w-[620px] text-[clamp(17px,1.55vw,20px)] leading-[1.72] text-[#5F6678] lg:mx-0">
             Sellaboo keeps nurturing the leads who aren't ready yet —
             automatically — so you don't have to build complicated CRM
             workflows or remember who needs another follow-up.
           </p>
 
-          <div className="mx-auto mt-6 flex max-w-[620px] items-center justify-center gap-3 rounded-2xl border border-[#E5E2F3] bg-white/65 px-4 py-3.5 shadow-[0_8px_28px_rgba(64,55,110,0.055)] backdrop-blur-md lg:mx-0 lg:justify-start">
+          <div className="mx-auto mt-5 flex max-w-[620px] items-center justify-center gap-3 rounded-2xl border border-[#E5E2F3] bg-white/65 px-4 py-3.5 shadow-[0_8px_28px_rgba(64,55,110,0.055)] backdrop-blur-md lg:mx-0 lg:justify-start">
             <div className="flex size-8 shrink-0 items-center justify-center rounded-full bg-[#E9F8F2]">
               <svg
                 viewBox="0 0 20 20"
@@ -122,7 +122,7 @@ export function HeroSection() {
             </p>
           </div>
 
-          <div className="mt-9 flex flex-col items-stretch justify-center gap-3.5 sm:flex-row sm:items-center lg:justify-start">
+          <div className="mt-7 flex flex-col items-stretch justify-center gap-3.5 sm:flex-row sm:items-center lg:justify-start">
             <Button
               href={FOUNDING_CUSTOMER_URL}
               className="min-h-[59px] gap-2.5 px-7 shadow-[0_16px_38px_rgba(77,65,151,0.28)] hover:shadow-[0_20px_46px_rgba(77,65,151,0.34)]"
@@ -141,7 +141,7 @@ export function HeroSection() {
             </Button>
           </div>
 
-          <div className="mt-12 flex justify-center lg:justify-start">
+          <div className="mt-9 flex justify-center lg:justify-start">
             <IndustryProof />
           </div>
         </div>
@@ -159,7 +159,7 @@ export function HeroSection() {
 
           <div
             aria-hidden="true"
-            className="absolute -bottom-8 -left-5 -z-10 size-20 rounded-[24px] bg-[#DDF6EC]/70 rotate-12"
+            className="absolute -bottom-8 -left-5 -z-10 size-20 rotate-12 rounded-[24px] bg-[#DDF6EC]/70"
           />
 
           <OpportunityPath />

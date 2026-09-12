@@ -13,12 +13,11 @@ function SellabooMark() {
   );
 }
 
-function HomeIcon() {
+function LeadIcon() {
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M3 11.5 12 4l9 7.5" />
-      <path d="M5.5 10.5V20h13v-9.5" />
-      <path d="M9.5 20v-6h5v6" />
+      <circle cx="12" cy="8" r="3.5" />
+      <path d="M5.5 19c.7-3.2 3.1-5 6.5-5s5.8 1.8 6.5 5" />
     </svg>
   );
 }
@@ -54,19 +53,19 @@ export function OpportunityPath() {
     <section
       id="how-it-works"
       className={styles.story}
-      aria-label="An opportunity moving from estimate request to booked appointment"
+      aria-label="A lead moving from first inquiry through ongoing nurture to a clear next step"
     >
       <div className={styles.frame}>
         <div className={styles.label}>
           <span className={styles.liveDot} aria-hidden="true" />
-          Every opportunity keeps moving for you, automatically, with one click.
+          One click starts the nurture. Sellaboo keeps it moving.
         </div>
 
         <svg
           className={styles.pathSvg}
           viewBox="0 0 720 720"
           role="img"
-          aria-label="The Sellaboo Opportunity Path"
+          aria-label="The Sellaboo lead nurture path"
         >
           <defs>
             <linearGradient
@@ -80,6 +79,7 @@ export function OpportunityPath() {
               <stop offset="46%" stopColor="#6e679b" />
               <stop offset="100%" stopColor="#28ba88" />
             </linearGradient>
+
             <filter
               id="opportunitySoftGlow"
               x="-100%"
@@ -106,71 +106,63 @@ export function OpportunityPath() {
             </filter>
           </defs>
 
+          <path className={styles.pathShadow} d={OPPORTUNITY_PATH} />
+
+          <path className={styles.pathBase} d={OPPORTUNITY_PATH} />
+
+          <path className={styles.pathProgress} d={OPPORTUNITY_PATH} />
+
           <path
-            className={styles.pathShadow}
+            id="opportunityMotionPath"
             d={OPPORTUNITY_PATH}
+            fill="none"
+            stroke="none"
           />
 
-          <path
-            className={styles.pathBase}
-            d={OPPORTUNITY_PATH}
-          />
+          <circle
+            className={styles.opportunityHalo}
+            r="25"
+            fill="#8179b4"
+            opacity="0.18"
+            filter="url(#opportunityWideGlow)"
+          >
+            <animateMotion
+              dur="9.5s"
+              repeatCount="indefinite"
+              rotate="auto"
+            >
+              <mpath href="#opportunityMotionPath" />
+            </animateMotion>
+          </circle>
 
-          <path
-            className={styles.pathProgress}
-            d={OPPORTUNITY_PATH}
-          />
-          <path
-  id="opportunityMotionPath"
-  d={OPPORTUNITY_PATH}
-  fill="none"
-  stroke="none"
-/>
+          <circle
+            className={styles.opportunityLight}
+            r="8"
+            fill="#ffffff"
+            filter="url(#opportunitySoftGlow)"
+          >
+            <animateMotion
+              dur="9.5s"
+              repeatCount="indefinite"
+              rotate="auto"
+            >
+              <mpath href="#opportunityMotionPath" />
+            </animateMotion>
+          </circle>
 
-<circle
-  className={styles.opportunityHalo}
-  r="25"
-  fill="#8179b4"
-  opacity="0.18"
-  filter="url(#opportunityWideGlow)"
->
-  <animateMotion
-    dur="9.5s"
-    repeatCount="indefinite"
-    rotate="auto"
-  >
-    <mpath href="#opportunityMotionPath" />
-  </animateMotion>
-</circle>
-
-<circle
-  className={styles.opportunityLight}
-  r="8"
-  fill="#ffffff"
-  filter="url(#opportunitySoftGlow)"
->
-  <animateMotion
-    dur="9.5s"
-    repeatCount="indefinite"
-    rotate="auto"
-  >
-    <mpath href="#opportunityMotionPath" />
-  </animateMotion>
-</circle>
-
-<circle
-  className={styles.opportunityCore}
-  r="4.5"
-  fill="#e8e5ff"
->
-  <animateMotion
-    dur="9.5s"
-    repeatCount="indefinite"
-    rotate="auto"
-  >
-    <mpath href="#opportunityMotionPath" />
-  </animateMotion>
-</circle>
+          <circle
+            className={styles.opportunityCore}
+            r="4.5"
+            fill="#e8e5ff"
+          >
+            <animateMotion
+              dur="9.5s"
+              repeatCount="indefinite"
+              rotate="auto"
+            >
+              <mpath href="#opportunityMotionPath" />
+            </animateMotion>
+          </circle>
         </svg>
 
         <article className={`${styles.node} ${styles.requestNode}`}>
@@ -178,12 +170,12 @@ export function OpportunityPath() {
             className={`${styles.nodeIcon} ${styles.indigoIcon}`}
             aria-hidden="true"
           >
-            <HomeIcon />
+            <LeadIcon />
           </div>
 
           <div className={styles.nodeCopy}>
-            <span>New buyer lead</span>
-            <strong>Interested in single family home</strong>
+            <span>New inquiry</span>
+            <strong>Interested in your services</strong>
             <small>Received 2 minutes ago</small>
           </div>
         </article>
@@ -196,7 +188,7 @@ export function OpportunityPath() {
           <div className={styles.nodeCopy}>
             <span>New lead</span>
             <strong>Jordan Miller</strong>
-            <small>Ready for nurturing</small>
+            <small>Ready for nurture</small>
           </div>
 
           <em>New</em>
@@ -211,8 +203,8 @@ export function OpportunityPath() {
 
           <div className={styles.nodeCopy}>
             <span>Sellaboo</span>
-            <strong>Lead nurture campaign begins</strong>
-            <small>Every next step stays visible</small>
+            <strong>Nurture starts automatically</strong>
+            <small>Ongoing follow-up is now handled</small>
           </div>
         </article>
 
@@ -230,9 +222,9 @@ export function OpportunityPath() {
           </div>
 
           <div className={styles.nodeCopy}>
-            <span>Consistent lead nurturing</span>
+            <span>Consistent nurture</span>
             <strong>The conversation keeps moving</strong>
-            <small>Sent automatically, monitored clearly</small>
+            <small>Follow-up continues automatically</small>
           </div>
 
           <em>Sent</em>
@@ -259,8 +251,8 @@ export function OpportunityPath() {
           </div>
 
           <div className={styles.nodeCopy}>
-            <span>Appointment booked</span>
-            <strong>Showing scheduled</strong>
+            <span>Next step booked</span>
+            <strong>Appointment scheduled</strong>
             <small>Tomorrow · 2:30 PM</small>
           </div>
 
@@ -271,8 +263,8 @@ export function OpportunityPath() {
           <span aria-hidden="true" />
 
           <p>
-            Sellaboo helps every opportunity keep moving toward a
-            clear next step.
+            Sellaboo keeps good leads nurtured until they're ready for the
+            next step.
           </p>
         </div>
       </div>
