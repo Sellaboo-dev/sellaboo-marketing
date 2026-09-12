@@ -12,42 +12,42 @@ export const howItWorksSteps: HowItWorksStep[] = [
     number: "01",
     type: "lead",
     eyebrow: "A lead comes in",
-    title: "A customer reaches out.",
+    title: "A potential customer reaches out.",
     description:
-      "A form is submitted, a phone call comes in, or someone requests a showing.",
+      "A form is submitted, a call comes in, or someone asks for more information.",
   },
   {
     number: "02",
     type: "sellaboo",
-    eyebrow: "Sellaboo takes over",
-    title: "No one has to remember what happens next.",
+    eyebrow: "Start nurture",
+    title: "One simple action starts the process.",
     description:
-      "The conversation is enrolled automatically and every next step stays visible.",
+      "Put the lead into Sellaboo and start nurture without building another complicated workflow or campaign.",
   },
   {
     number: "03",
     type: "followup",
-    eyebrow: "Follow-up continues",
-    title: "Every message arrives at the right time.",
+    eyebrow: "Nurture continues",
+    title: "Sellaboo keeps the relationship moving.",
     description:
-      "Consistent, personalized follow-up keeps the opportunity moving without adding work for your team.",
+      "Consistent follow-up continues automatically so good leads keep hearing from your business while they decide.",
   },
   {
     number: "04",
     type: "reply",
-    eyebrow: "Customer responds",
-    title: "Your team knows when someone is ready.",
+    eyebrow: "The lead re-engages",
+    title: "Your team knows when interest returns.",
     description:
-      "The reply is visible immediately, so your team can step in without searching or guessing.",
+      "When a lead responds or shows renewed interest, your team can step back in at the right time.",
     successStage: true,
   },
   {
     number: "05",
     type: "booked",
-    eyebrow: "Appointment booked",
-    title: "Your team steps in when it matters most.",
+    eyebrow: "Next step",
+    title: "The opportunity moves forward.",
     description:
-      "More promising conversations reach a clear next step and become scheduled appointments.",
+      "The conversation can become an appointment, estimate, consultation, showing, or whatever next step fits your business.",
     successStage: true,
   },
 ];

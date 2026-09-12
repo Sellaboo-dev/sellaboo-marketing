@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
-import { FOUNDING_CUSTOMER_URL } from "@/lib/marketing-links";
 import { ArrowIcon } from "@/components/icons/ArrowIcon";
 import { PlayIcon } from "@/components/icons/PlayIcon";
 
@@ -21,21 +20,20 @@ export function FinalCtaSection() {
 
           <div className="relative mx-auto max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#18B67E]">
-              Built for Consistent Lead Nurture and Conversion
+              Effortless Lead Nurture
             </p>
 
             <h2
               id="final-cta-heading"
               className="mt-4 font-[family:var(--font-manrope)] text-4xl font-bold tracking-[-0.04em] text-[#181A24] sm:text-5xl lg:text-6xl"
             >
-              Start growing your business today
+              Stop relying on memory to keep good leads alive.
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[#5F6678]">
-              Let Sellaboo keep nurturing your leads, so your new leads 
-              become your next customers, while you and your team stays focused on
-              serving customers, closing more opportunities, and running the
-              business.
+              Keep your CRM. Keep running your business. Let Sellaboo handle
+              the ongoing nurture that keeps not-ready-yet leads hearing from
+              you until they're ready to take the next step.
             </p>
 
             <div className="mt-10 flex flex-col items-stretch justify-center gap-3.5 sm:flex-row sm:items-center">
@@ -43,7 +41,7 @@ export function FinalCtaSection() {
                 href="https://app.sellaboo.com/pricing"
                 className="min-h-[57px] gap-2.5 px-6 shadow-[0_14px_34px_rgba(63,58,100,0.24)] hover:shadow-[0_19px_42px_rgba(63,58,100,0.29)]"
               >
-                Get Started Now
+                Start Nurturing Leads
                 <ArrowIcon />
               </Button>
 
@@ -53,13 +51,12 @@ export function FinalCtaSection() {
                 className="min-h-[57px] gap-2.5 px-6 shadow-[0_10px_30px_rgba(42,45,76,0.07)]"
               >
                 <PlayIcon />
-                Watch How Sellaboo Works
+                See How It Works
               </Button>
             </div>
 
             <p className="mt-6 text-sm leading-6 text-[#5F6678]">
-              Simple follow-up. Clear visibility. More opportunities kept
-              moving.
+              One lead. One click. Nurture handled.
             </p>
           </div>
         </div>

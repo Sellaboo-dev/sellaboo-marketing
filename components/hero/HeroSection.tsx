@@ -20,7 +20,7 @@ function IndustryProof() {
   return (
     <div id="who-its-for">
       <p className="mb-3 text-[11px] font-bold uppercase tracking-[0.05em] text-[#9299aa]">
-        Designed specifically for busy real estate professionals, and other service-based businesses that rely on leads to grow their business.
+        Built for businesses that depend on leads to grow.
       </p>
 
       <div className="flex flex-wrap items-center justify-center gap-2.5 lg:justify-start">
@@ -63,13 +63,13 @@ export function HeroSection() {
         <div className="relative z-10 text-center lg:text-left">
           <div className="mb-7 inline-flex items-center gap-2.5 rounded-full border border-[rgba(63,58,100,0.13)] bg-white/80 px-3.5 py-2 text-[11px] font-extrabold uppercase tracking-[0.055em] text-[var(--color-primary)] shadow-[0_10px_30px_rgba(42,45,76,0.07)]">
             <span className="size-2 rounded-full bg-[var(--color-success)] shadow-[0_0_0_5px_rgba(24,182,126,0.12)]" />
-            The easiest lead nurture tool available for real estate professionals
+            Effortless lead nurture for busy businesses
           </div>
 
           <h1 className="mx-auto max-w-[710px] font-[var(--font-heading)] text-[clamp(44px,5.8vw,64px)] font-extrabold leading-[1.045] tracking-[-0.055em] text-[var(--color-heading)] lg:mx-0">
-            How to stop losing good leads{" "}
+            Stop letting good leads{" "}
             <span className="relative inline-block text-[var(--color-primary)]">
-              to your competition.
+              fall through the cracks.
               <span
                 aria-hidden="true"
                 className="absolute -bottom-1 left-[1%] right-[2%] -z-10 h-2.5 -rotate-1 rounded-full bg-[linear-gradient(90deg,rgba(63,58,100,0.08),rgba(24,182,126,0.2))]"
@@ -78,11 +78,13 @@ export function HeroSection() {
           </h1>
 
           <p className="mx-auto mt-7 max-w-[610px] text-[clamp(17px,1.55vw,20px)] leading-[1.7] text-[var(--color-body)] lg:mx-0">
-            Sellaboo - succeeding where CRM's fail... 
-            simplifying the nurturing of real estate  
-            leads without the days of learning, setup, manual input, 
-            message writing, and deployment. Sellaboo nurtures and converts your leads 
-            into customers while you focus on running your business.        
+            Sellaboo keeps nurturing the leads who aren't ready yet —
+            automatically — so you don't have to build complicated CRM
+            workflows or remember who needs another follow-up.
+          </p>
+
+          <p className="mx-auto mt-5 max-w-[610px] font-semibold text-[var(--color-heading)] lg:mx-0">
+            Keep your CRM. Sellaboo handles the nurture.
           </p>
 
           <div className="mt-10 flex flex-col items-stretch justify-center gap-3.5 sm:flex-row sm:items-center lg:justify-start">
@@ -90,7 +92,7 @@ export function HeroSection() {
               href={FOUNDING_CUSTOMER_URL}
               className="min-h-[57px] gap-2.5 px-6 shadow-[0_14px_34px_rgba(63,58,100,0.24)] hover:shadow-[0_19px_42px_rgba(63,58,100,0.29)]"
             >
-              Become a Founding User
+              Start Nurturing Leads
               <ArrowIcon />
             </Button>
 
@@ -100,7 +102,7 @@ export function HeroSection() {
               className="min-h-[57px] gap-2.5 px-6 shadow-[0_10px_30px_rgba(42,45,76,0.07)]"
             >
               <PlayIcon />
-              Watch How Sellaboo Works
+              See How It Works
             </Button>
           </div>
 

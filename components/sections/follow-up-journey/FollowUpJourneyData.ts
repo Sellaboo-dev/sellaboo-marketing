@@ -25,17 +25,17 @@ export const followUpJourneySteps: readonly FollowUpJourneyStep[] = [
   {
     id: "click-enroll",
     step: 2,
-    title: "Click Enroll",
+    title: "Start Nurture",
     description:
-      "With one simple click, the lead is enrolled and ready for consistent follow-up.",
+      "With one simple action, put the lead into Sellaboo and let the nurture begin.",
     visual: "enroll",
   },
   {
     id: "follow-up-starts",
     step: 3,
-    title: "Follow-Up Starts in Seconds",
+    title: "Sellaboo Keeps Following Up",
     description:
-      "Sellaboo begins the follow-up process immediately, without complicated campaign setup or email writing.",
+      "Consistent follow-up begins without requiring you to build another campaign, workflow, or sequence.",
     visual: "started",
   },
   {
@@ -43,7 +43,7 @@ export const followUpJourneySteps: readonly FollowUpJourneyStep[] = [
     step: 4,
     title: "Your Lead Keeps Hearing From You",
     description:
-      "Thoughtful, consistent follow-up keeps you in front of your prospects while you handle the rest of your day.",
+      "Sellaboo keeps your business in the conversation while the lead decides when the time is right to move forward.",
     visual: "engaged",
   },
   {
@@ -51,7 +51,7 @@ export const followUpJourneySteps: readonly FollowUpJourneyStep[] = [
     step: 5,
     title: "You Stay Focused on Your Business",
     description:
-  "While Sellaboo keeps your follow-up moving, you can stay focused on serving customers, winning new work, and growing your business.",
+      "While Sellaboo keeps the nurture moving, you can focus on today's customers, new opportunities, and running your business.",
     visual: "focused",
   },
 ];

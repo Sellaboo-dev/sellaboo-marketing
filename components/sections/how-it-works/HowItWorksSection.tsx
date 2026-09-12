@@ -7,201 +7,297 @@ import { howItWorksSteps } from "./HowItWorksStepData";
 import { HowItWorksTimeline } from "./HowItWorksTimeline";
 
 const FOUNDING_CUSTOMER_URL =
-    "https://app.sellaboo.com/founding-beta";
+  "https://app.sellaboo.com/founding-beta";
 
 function ArrowIcon() {
-    return (
-        <svg
-            viewBox="0 0 20 20"
-            aria-hidden="true"
-            className="size-5 fill-none stroke-current stroke-2"
-        >
-            <path
-                d="M4 10h11M11 6l4 4-4 4"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-            />
-        </svg>
-    );
+  return (
+    <svg
+      viewBox="0 0 20 20"
+      aria-hidden="true"
+      className="size-5 fill-none stroke-current stroke-2"
+    >
+      <path
+        d="M4 10h11M11 6l4 4-4 4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
 }
 
 function PlayIcon() {
-    return (
-        <span
-            aria-hidden="true"
-            className="inline-flex size-8 items-center justify-center rounded-full bg-[var(--color-primary-light)] text-[var(--color-primary)]"
-        >
-            <svg
-                viewBox="0 0 20 20"
-                className="size-4 fill-current"
-            >
-                <path d="m7 5 8 5-8 5V5Z" />
-            </svg>
-        </span>
-    );
+  return (
+    <span
+      aria-hidden="true"
+      className="inline-flex size-8 items-center justify-center rounded-full bg-[var(--color-primary-light)] text-[var(--color-primary)]"
+    >
+      <svg
+        viewBox="0 0 20 20"
+        className="size-4 fill-current"
+      >
+        <path d="m7 5 8 5-8 5V5Z" />
+      </svg>
+    </span>
+  );
 }
 
 function TargetIcon() {
-    return (
-        <span
-            aria-hidden="true"
-            className="inline-flex size-11 shrink-0 items-center justify-center rounded-[15px] bg-[#eaf9f4] text-[#16825f]"
-        >
-            <svg
-                viewBox="0 0 24 24"
-                className="size-5 fill-none stroke-current stroke-2"
+  return (
+    <span
+      aria-hidden="true"
+      className="inline-flex size-11 shrink-0 items-center justify-center rounded-[15px] bg-[#eaf9f4] text-[#16825f]"
+    >
+      <svg
+        viewBox="0 0 24 24"
+        className="size-5 fill-none stroke-current stroke-2"
+      >
+        <circle cx="12" cy="12" r="8" />
+        <circle cx="12" cy="12" r="3" />
+        <path
+          d="M12 2v3M12 19v3M2 12h3M19 12h3"
+          strokeLinecap="round"
+        />
+      </svg>
+    </span>
+  );
+}
+
+function CrmVsSellaboo() {
+  return (
+    <div className="grid gap-5 md:grid-cols-2">
+      <div className="rounded-[24px] border border-[var(--color-border)] bg-[#f8f9fc] p-6 sm:p-7">
+        <p className="text-[11px] font-extrabold uppercase tracking-[0.07em] text-[#858c9c]">
+          Your CRM
+        </p>
+
+        <h3 className="mt-3 font-[var(--font-heading)] text-[24px] font-extrabold tracking-[-0.03em] text-[var(--color-heading)]">
+          Powerful, but there can be a lot to manage.
+        </h3>
+
+        <div className="mt-6 flex flex-wrap items-center gap-2">
+          {[
+            "Lead",
+            "Segment",
+            "Smart List",
+            "Action Plan",
+            "Workflow",
+            "Templates",
+            "Timing",
+            "Tasks",
+            "Follow-Up",
+          ].map((item, index, items) => (
+            <div
+              key={item}
+              className="flex items-center gap-2"
             >
-                <circle cx="12" cy="12" r="8" />
-                <circle cx="12" cy="12" r="3" />
-                <path
-                    d="M12 2v3M12 19v3M2 12h3M19 12h3"
-                    strokeLinecap="round"
-                />
-            </svg>
-        </span>
-    );
+              <span className="rounded-full border border-[#e0e3ea] bg-white px-3 py-2 text-[12px] font-bold text-[#697083]">
+                {item}
+              </span>
+
+              {index < items.length - 1 ? (
+                <span
+                  aria-hidden="true"
+                  className="text-sm font-bold text-[#a8aeba]"
+                >
+                  →
+                </span>
+              ) : null}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="relative overflow-hidden rounded-[24px] border border-[rgba(24,182,126,0.2)] bg-[linear-gradient(145deg,rgba(234,249,244,0.95),rgba(255,255,255,0.96))] p-6 shadow-[0_18px_50px_rgba(24,182,126,0.08)] sm:p-7">
+        <div
+          aria-hidden="true"
+          className="absolute right-0 top-0 size-40 translate-x-10 -translate-y-10 rounded-full bg-[radial-gradient(circle,rgba(24,182,126,0.12),transparent_68%)]"
+        />
+
+        <div className="relative">
+          <p className="text-[11px] font-extrabold uppercase tracking-[0.07em] text-[#16825f]">
+            Sellaboo
+          </p>
+
+          <h3 className="mt-3 font-[var(--font-heading)] text-[24px] font-extrabold tracking-[-0.03em] text-[var(--color-heading)]">
+            One important job, made effortless.
+          </h3>
+
+          <div className="mt-7 flex flex-wrap items-center gap-3">
+            <span className="rounded-full border border-[rgba(24,182,126,0.18)] bg-white px-4 py-3 text-sm font-extrabold text-[var(--color-heading)] shadow-[0_8px_24px_rgba(42,45,76,0.06)]">
+              Lead
+            </span>
+
+            <span
+              aria-hidden="true"
+              className="text-lg font-extrabold text-[#16825f]"
+            >
+              →
+            </span>
+
+            <span className="rounded-full bg-[#16825f] px-4 py-3 text-sm font-extrabold text-white shadow-[0_10px_28px_rgba(24,130,95,0.2)]">
+              Nurture ✓
+            </span>
+          </div>
+
+          <p className="mt-6 text-[15px] font-semibold leading-7 text-[#566071]">
+            Add the lead, start nurture, and let Sellaboo keep the
+            relationship moving until they're ready.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export function HowItWorksSection() {
-    return (
-        <section
-            id="how-sellaboo-works"
-            className="relative overflow-hidden bg-[var(--color-background)] py-20 sm:py-24 lg:py-28"
+  return (
+    <section
+      id="how-sellaboo-works"
+      className="relative overflow-hidden bg-[var(--color-background)] py-20 sm:py-24 lg:py-28"
+    >
+      <div
+        aria-hidden="true"
+        className="absolute inset-0 -z-20 bg-[radial-gradient(circle_at_18%_18%,rgba(63,58,100,0.065),transparent_29%),radial-gradient(circle_at_85%_84%,rgba(24,182,126,0.065),transparent_28%),linear-gradient(180deg,#fbfcfe_0%,#ffffff_50%,#fbfcfe_100%)]"
+      />
+
+      <div
+        aria-hidden="true"
+        className="absolute left-1/2 top-1/2 -z-10 size-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(101,92,157,0.055),transparent_68%)] blur-2xl"
+      />
+
+      <Container className="lg:max-w-[1320px]">
+        <div className="mx-auto max-w-[840px] text-center">
+          <Reveal
+            variant="fade-up"
+            distance={14}
+            duration={650}
+          >
+            <div className="mb-5 inline-flex items-center rounded-full border border-[rgba(63,58,100,0.13)] bg-[var(--color-primary-light)] px-4 py-2 text-[11px] font-extrabold uppercase tracking-[0.065em] text-[var(--color-primary)]">
+              How Sellaboo works
+            </div>
+          </Reveal>
+
+          <Reveal
+            variant="fade-up"
+            delay={80}
+            distance={18}
+            duration={700}
+          >
+            <h2 className="font-[var(--font-heading)] text-[clamp(40px,5.5vw,66px)] font-extrabold leading-[1.04] tracking-[-0.05em] text-[var(--color-heading)]">
+              Your CRM can do a thousand things.{" "}
+              <span className="bg-[linear-gradient(90deg,var(--color-primary),var(--color-success))] bg-clip-text text-transparent">
+                Sellaboo makes one important thing effortless.
+              </span>
+            </h2>
+          </Reveal>
+
+          <Reveal
+            variant="fade-up"
+            delay={160}
+            distance={18}
+            duration={700}
+          >
+            <p className="mx-auto mt-6 max-w-[710px] text-[clamp(17px,1.6vw,20px)] leading-[1.72] text-[var(--color-body)]">
+              You don't need another complicated system to manage.
+              Sellaboo is built around one simple action: put a lead into
+              nurture and let Sellaboo handle the ongoing follow-up.
+            </p>
+          </Reveal>
+        </div>
+
+        <Reveal
+          variant="fade-up"
+          delay={120}
+          distance={24}
+          duration={800}
+          threshold={0.16}
+          className="mt-14 sm:mt-16"
         >
-            <div
-                aria-hidden="true"
-                className="absolute inset-0 -z-20 bg-[radial-gradient(circle_at_18%_18%,rgba(63,58,100,0.065),transparent_29%),radial-gradient(circle_at_85%_84%,rgba(24,182,126,0.065),transparent_28%),linear-gradient(180deg,#fbfcfe_0%,#ffffff_50%,#fbfcfe_100%)]"
+          <CrmVsSellaboo />
+        </Reveal>
+
+        <Reveal
+          variant="fade-up"
+          delay={120}
+          distance={24}
+          duration={800}
+          threshold={0.16}
+          className="mt-16 sm:mt-20"
+        >
+          <div className="rounded-[28px] border border-[rgba(225,228,239,0.9)] bg-white/80 px-6 py-8 shadow-[0_24px_70px_rgba(42,45,76,0.08)] backdrop-blur-xl sm:px-9 lg:px-12">
+            <HowItWorksTimeline />
+          </div>
+        </Reveal>
+
+        <Stagger
+          className="mt-14 grid gap-5 md:grid-cols-2 xl:grid-cols-5"
+          delay={150}
+          duration={850}
+          distance={34}
+          threshold={0.18}
+        >
+          {howItWorksSteps.map((step) => (
+            <HowItWorksStepCard
+              key={step.number}
+              step={step}
             />
+          ))}
+        </Stagger>
 
-            <div
-                aria-hidden="true"
-                className="absolute left-1/2 top-1/2 -z-10 size-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(101,92,157,0.055),transparent_68%)] blur-2xl"
-            />
+        <Reveal
+          variant="fade-up"
+          delay={100}
+          distance={24}
+          duration={750}
+          threshold={0.16}
+          className="mt-16"
+        >
+          <div className="rounded-[24px] border border-[rgba(24,182,126,0.16)] bg-white/85 p-6 shadow-[0_18px_55px_rgba(42,45,76,0.07)] sm:flex sm:items-center sm:gap-5 sm:p-7">
+            <TargetIcon />
 
-            <Container className="lg:max-w-[1320px]">
-                <div className="mx-auto max-w-[840px] text-center">
-                    <Reveal
-                        variant="fade-up"
-                        distance={14}
-                        duration={650}
-                    >
-                        <div className="mb-5 inline-flex items-center rounded-full border border-[rgba(63,58,100,0.13)] bg-[var(--color-primary-light)] px-4 py-2 text-[11px] font-extrabold uppercase tracking-[0.065em] text-[var(--color-primary)]">
-                            How Sellaboo works
-                        </div>
-                    </Reveal>
+            <p className="mt-4 font-[var(--font-heading)] text-[clamp(18px,2vw,24px)] font-extrabold leading-[1.45] tracking-[-0.025em] text-[var(--color-heading)] sm:mt-0">
+              Sellaboo doesn't replace your CRM or your team.{" "}
+              <span className="text-[#16825f]">
+                It makes sure good leads keep hearing from your business
+                consistently until they're ready to take the next step.
+              </span>
+            </p>
+          </div>
+        </Reveal>
 
-                    <Reveal
-                        variant="fade-up"
-                        delay={80}
-                        distance={18}
-                        duration={700}
-                    >
-                        <h2 className="font-[var(--font-heading)] text-[clamp(40px,5.5vw,66px)] font-extrabold leading-[1.04] tracking-[-0.05em] text-[var(--color-heading)]">
-                            Every Lead.{" "}
-                            <span className="bg-[linear-gradient(90deg,var(--color-primary),var(--color-success))] bg-clip-text text-transparent">
-                                One simple click.
-                            </span>
-                        </h2>
-                    </Reveal>
+        <Reveal
+          variant="fade-up"
+          delay={160}
+          distance={20}
+          duration={750}
+          threshold={0.16}
+          className="mt-10"
+        >
+          <div className="flex flex-col items-stretch justify-center gap-3.5 sm:flex-row sm:items-center">
+            <Button
+              href={FOUNDING_CUSTOMER_URL}
+              className="min-h-[57px] gap-2.5 px-7"
+            >
+              Start Nurturing Leads
+              <ArrowIcon />
+            </Button>
 
-                    <Reveal
-                        variant="fade-up"
-                        delay={160}
-                        distance={18}
-                        duration={700}
-                    >
-                        <p className="mx-auto mt-6 max-w-[710px] text-[clamp(17px,1.6vw,20px)] leading-[1.72] text-[var(--color-body)]">
-                            “Here's your CRM now. Configure your lead sources, 
-                            stages, smart lists, action plans, campaigns, routing, 
-                            workflows, texts, templates, tasks…” Here's Sellaboo...
-                            enter your lead, click a button, done! Sellaboo does the rest.
-                        </p>
-                    </Reveal>
-                </div>
+            <Button
+              href="/demo"
+              variant="secondary"
+              className="min-h-[57px] gap-2.5 px-7 shadow-[0_10px_30px_rgba(42,45,76,0.07)]"
+            >
+              <PlayIcon />
+              See How It Works
+            </Button>
+          </div>
 
-                <Reveal
-                    variant="fade-up"
-                    delay={120}
-                    distance={24}
-                    duration={800}
-                    threshold={0.16}
-                    className="mt-16 sm:mt-20"
-                    >
-                    <div className="rounded-[28px] border border-[rgba(225,228,239,0.9)] bg-white/80 px-6 py-8 shadow-[0_24px_70px_rgba(42,45,76,0.08)] backdrop-blur-xl sm:px-9 lg:px-12">
-                        <HowItWorksTimeline />
-                    </div>
-                </Reveal>
-
-                <Stagger
-                    className="mt-14 grid gap-5 md:grid-cols-2 xl:grid-cols-5"
-                    delay={150}
-                    duration={850}
-                    distance={34}
-                    threshold={0.18}
-                >
-                    {howItWorksSteps.map((step) => (
-                        <HowItWorksStepCard
-                            key={step.number}
-                            step={step}
-                        />
-                    ))}
-                </Stagger>
-
-                <Reveal
-                    variant="fade-up"
-                    delay={100}
-                    distance={24}
-                    duration={750}
-                    threshold={0.16}
-                    className="mt-16"
-                >
-                    <div className="rounded-[24px] border border-[rgba(24,182,126,0.16)] bg-white/85 p-6 shadow-[0_18px_55px_rgba(42,45,76,0.07)] sm:flex sm:items-center sm:gap-5 sm:p-7">
-                        <TargetIcon />
-
-                        <p className="mt-4 font-[var(--font-heading)] text-[clamp(18px,2vw,24px)] font-extrabold leading-[1.45] tracking-[-0.025em] text-[var(--color-heading)] sm:mt-0">
-                            Sellaboo doesn’t replace your team.{" "}
-                            <span className="text-[#16825f]">
-                                It makes sure your business is kept in the game until your buyer or seller is ready.
-                                People buy from the Agent that communicates and keeps their name in front of them consistently. 
-                                Sellaboo does that for you, automatically, consistently, relyably, and with one click.
-                            </span>
-                        </p>
-                    </div>
-                </Reveal>
-
-                <Reveal
-                    variant="fade-up"
-                    delay={160}
-                    distance={20}
-                    duration={750}
-                    threshold={0.16}
-                    className="mt-10"
-                >
-                    <div className="flex flex-col items-stretch justify-center gap-3.5 sm:flex-row sm:items-center">
-                        <Button
-                            href={FOUNDING_CUSTOMER_URL}
-                            className="min-h-[57px] gap-2.5 px-7"
-                        >
-                            Become a Founding User
-                            <ArrowIcon />
-                        </Button>
-
-                        <Button
-                            href="/demo"
-                            variant="secondary"
-                            className="min-h-[57px] gap-2.5 px-7 shadow-[0_10px_30px_rgba(42,45,76,0.07)]"
-                        >
-                            <PlayIcon />
-                            Watch How Sellaboo Works
-                        </Button>
-                    </div>
-
-                    <p className="mt-5 text-center text-[13px] font-semibold text-[#777f91]">
-                        Limited Phase 1 customer spots available. Lock in early
-                        access and special pricing.
-                    </p>
-                </Reveal>
-            </Container>
-        </section>
-    );
+          <p className="mt-5 text-center text-[13px] font-semibold text-[#777f91]">
+            Limited Phase 1 customer spots available. Lock in early
+            access and special pricing.
+          </p>
+        </Reveal>
+      </Container>
+    </section>
+  );
 }

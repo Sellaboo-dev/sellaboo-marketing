@@ -7,24 +7,24 @@ export type WhySellabooFeature = {
 
 export const whySellabooFeatures: readonly WhySellabooFeature[] = [
   {
-    id: "lead-follow-up-system",
-    eyebrow: "Built for Small Businesses",
-    title: "A Dedicated Lead Follow-Up System",
+    id: "lead-nurture",
+    eyebrow: "Built for Busy Businesses",
+    title: "A Simple Way to Nurture the Leads You Already Have",
     description:
-      "Sellaboo is a dedicated Lead Nurture System that keeps every customer conversation moving while you're busy running your business.",
+      "Sellaboo gives not-ready-yet leads a dedicated nurture path, so they can keep hearing from your business without adding another complicated system for your team to manage.",
   },
   {
     id: "start-in-seconds",
-    eyebrow: "Start Following Up in Seconds",
-    title: "Follow-Up Starts in Seconds",
+    eyebrow: "Start Nurture in Seconds",
+    title: "One Lead. One Click. Nurture Handled.",
     description:
-      "Enroll a new lead, click one button and Sellaboo immediately begins consistent lead nurture, letting you get back to serving customers instead of spending hours configuring complicated software.",
+      "Add a lead, start nurture, and get back to running your business. Sellaboo handles the ongoing follow-up without requiring you to build campaigns, workflows, or complicated automations.",
   },
   {
     id: "focused",
     eyebrow: "Focused on What Matters",
-    title: "Purpose-Built to Solve One Important Problem",
+    title: "One Important Job, Done Simply",
     description:
-      "Sellaboo isn't designed to replace every tool you already use. It's designed to do one job exceptionally well—help you consistently nurture every lead that matters.",
+      "Sellaboo isn't trying to replace your CRM or every tool you already use. It's focused on one important job: making consistent lead nurture easier to start and easier to keep running.",
   },
 ];

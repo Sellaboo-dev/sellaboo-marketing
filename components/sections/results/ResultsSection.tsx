@@ -16,21 +16,21 @@ export function ResultsSection() {
         <Reveal>
           <div className="mx-auto max-w-3xl text-center">
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.16em] text-[#18B67E]">
-              Built for busy business owners
+              Built for busy businesses
             </p>
 
             <h2
               id="results-heading"
               className="font-[family:var(--font-manrope)] text-4xl font-bold tracking-[-0.03em] text-[#181A24] sm:text-5xl"
             >
-              Automated lead nurture and conversion without the complicated learning curve of a CRM.
+              Consistent lead nurture without another complicated system to manage.
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[#5F6678]">
-              For the Agent who doesn't want to learn a complicated CRM but still
-              wants automated lead nurture and conversion while you're focusing
-              on serving current customers. More nurturing = More conversations = 
-              More booked jobs = More closed sales = More revenue.
+              Sellaboo helps you stay in front of good leads who aren't ready yet,
+              without relying on memory, manual reminders, or complicated CRM
+              workflows. Your team can stay focused on today's customers while
+              Sellaboo keeps tomorrow's opportunities moving.
             </p>
           </div>
         </Reveal>

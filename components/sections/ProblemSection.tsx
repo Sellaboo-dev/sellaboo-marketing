@@ -5,19 +5,19 @@ const problems = [
     number: "01",
     title: "You get busy",
     description:
-      "Calls, showings, prospecting, and customer issues compete for attention. Even strong Agents and teams can lose track of who needs the next follow-up.",
+      "Calls, appointments, estimates, customers, and day-to-day work compete for attention. Even great businesses can lose track of which lead needs the next follow-up.",
   },
   {
     number: "02",
-    title: "Leads slip through the cracks",
+    title: "Not every lead is ready now",
     description:
-      "A lead who doesn't buy immediately is easy to get overlooked. Maybe the timing is off, they're unsure, or they're shopping other Agents. People buy from those they trust, and Sellaboo's lead nurture builds trust.",
+      "Some prospects need days, weeks, or even months before they're ready to move forward. Those are often good opportunities — they just need consistent nurture.",
   },
   {
     number: "03",
-    title: "Leads go cold",
+    title: "Follow-up becomes inconsistent",
     description:
-      "Without a clear system, the nurturing of leads depends on someone remembering, finding the time, and knowing exactly what to send.",
+      "When nurturing depends on reminders, tasks, workflows, or someone remembering what to send next, good leads can quietly fall through the cracks.",
   },
 ];
 
@@ -51,23 +51,21 @@ export function ProblemSection() {
       <Container className="lg:max-w-[1180px]">
         <div className="mx-auto max-w-[790px] text-center">
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-[rgba(63,58,100,0.12)] bg-[var(--color-primary-light)] px-3.5 py-2 text-[11px] font-extrabold uppercase tracking-[0.06em] text-[var(--color-primary)]">
-            Simplifying what CRM's don't
+            Why good leads get lost
           </div>
 
           <h2 className="font-[var(--font-heading)] text-[clamp(36px,5vw,58px)] font-extrabold leading-[1.08] tracking-[-0.045em] text-[var(--color-heading)]">
-            Most Agents don't actually use the automated 
-            lead nurturing function of their CRM.
-            Reason - it's complicated and time consuming.
-            </h2>
+            The problem isn't getting leads into your CRM.
+            <br />
+            It's making sure the nurture actually happens.
+          </h2>
 
           <p className="mx-auto mt-6 max-w-[700px] text-[clamp(17px,1.6vw,20px)] leading-[1.75] text-[var(--color-body)]">
-            Agents use Sellaboo because it's simple, focused, time-saving, hands-off nurturing for leads 
-            who aren't ready yet. Built for Agents who know the importance of nurturing
-            leads but don't want to spend hours learning, configuring, deploying, 
-            and managing their complicated CRM.
-            Sellaboo keeps following up with buyer and seller leads 
-            until they're ready, with one-click. Your leads. Your brand. 
-            Automatic follow-up.
+            Your CRM can probably automate follow-up. But that often means
+            building workflows, creating campaigns, managing tasks, writing
+            messages, and keeping the system running. Sellaboo is focused on
+            making that one important job effortless: keeping good leads
+            nurtured until they're ready.
           </p>
         </div>
 
@@ -104,7 +102,7 @@ export function ProblemSection() {
             href="#how-sellaboo-works"
             className="inline-flex items-center gap-2.5 text-sm font-extrabold text-[var(--color-primary)] transition hover:gap-3.5 hover:text-[var(--color-primary-hover)]"
           >
-            See how Sellaboo keeps opportunities moving
+            See how Sellaboo makes nurture effortless
             <ArrowIcon />
           </a>
         </div>

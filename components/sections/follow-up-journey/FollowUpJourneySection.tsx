@@ -14,19 +14,20 @@ export function FollowUpJourneySection() {
       <Container>
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#18B67E]">
-            From New Lead to Follow-Up
+            From New Lead to Ongoing Nurture
           </p>
 
           <h2
             id="follow-up-journey-heading"
             className="mt-4 font-[family:var(--font-manrope)] text-4xl font-bold tracking-[-0.04em] text-[#181A24] sm:text-5xl"
           >
-            Your Lead Nurture starts in seconds
+            Start nurture in seconds. Let Sellaboo keep it going.
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-[#5F6678]">
-            One simple click initiates a complete workflow and moves every new lead into consistent,
-            reliable, follow-up, while you stay focused on running your business.
+            Add the lead, start nurture, and get back to your business.
+            Sellaboo keeps the follow-up moving so good opportunities
+            continue hearing from you even when the timing isn't right yet.
           </p>
         </div>
 

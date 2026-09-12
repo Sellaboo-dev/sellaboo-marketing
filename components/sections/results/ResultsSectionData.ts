@@ -9,38 +9,38 @@ export type ResultOutcome = {
 export const resultOutcomes: readonly ResultOutcome[] = [
   {
     id: "capture",
-    eyebrow: "Capture every opportunity",
-    title: "Never lose another lead",
+    eyebrow: "Keep opportunities visible",
+    title: "Good leads don't have to disappear.",
     description:
-      "Every new inquiry enters one reliable follow-up system, so promising opportunities don't disappear into sticky notes, spreadsheets, or forgotten callbacks.",
+      "Sellaboo gives not-ready-yet leads a clear nurture path, so they are less likely to be forgotten after the first few conversations.",
     supportingPoints: [
-      "Every lead stays organized",
-      "Every lead keeps progressing",
-      "No missed revenue opportunities",
+      "Leads stay organized",
+      "Nurture keeps moving",
+      "Fewer forgotten follow-ups",
     ],
   },
   {
     id: "focus",
-    eyebrow: "Keep work moving",
-    title: "Stay focused on your customers",
+    eyebrow: "Reduce manual follow-up",
+    title: "Stay focused on today's customers.",
     description:
-      "While you are serving customers and running the business, Sellaboo keeps each lead conversation moving forward automatically.",
+      "While you are serving customers and running the business, Sellaboo keeps nurturing future opportunities in the background.",
     supportingPoints: [
       "Less manual follow-up",
-      "More time for customers",
+      "More time for current customers",
       "Consistent communication",
     ],
   },
   {
     id: "growth",
-    eyebrow: "Convert more demand",
-    title: "Turn more leads into booked jobs",
+    eyebrow: "Stay in the conversation",
+    title: "Be there when the lead is ready.",
     description:
-      "Consistent follow-up helps you create more conversations, secure more appointments, and win more revenue from the leads you already worked hard to generate.",
+      "Consistent nurture helps your business remain familiar and responsive while prospects decide when the timing is right to move forward.",
     supportingPoints: [
-      "More lead conversations",
-      "More booked appointments",
-      "More opportunities to win",
+      "Ongoing lead nurture",
+      "More consistent touchpoints",
+      "More chances to re-engage",
     ],
   },
 ];
