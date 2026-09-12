@@ -31,7 +31,7 @@ const timelineSteps: TimelineStepData[] = [
   },
   {
     number: "03",
-    label: "Follow-up continues",
+    label: "Nurture continues",
   },
   {
     number: "04",
@@ -60,11 +60,10 @@ function TimelineConnector({
       data-sequence-item
       style={getSequenceStyle(sequenceIndex)}
       className={[
-        "absolute right-1/2 top-[23px] hidden h-px w-full origin-right",
-        "border-t-2 border-dashed sm:block",
+        "absolute right-1/2 top-[25px] hidden h-[3px] w-full origin-right rounded-full sm:block",
         isSuccessStage
-          ? "border-[rgba(24,182,126,0.5)]"
-          : "border-[rgba(83,73,158,0.45)]",
+          ? "bg-[linear-gradient(90deg,#665BC4,#18B67E)]"
+          : "bg-[linear-gradient(90deg,#8B82C5,#665BC4)]",
       ].join(" ")}
     />
   );
@@ -93,13 +92,13 @@ function TimelineStep({ step, index }: TimelineStepProps) {
         data-sequence-item
         style={getSequenceStyle(markerSequenceIndex)}
         className={[
-          "relative z-10 inline-flex size-12 shrink-0",
-          "items-center justify-center rounded-full border bg-white",
+          "relative z-10 inline-flex size-[52px] shrink-0",
+          "items-center justify-center rounded-full border-4 border-white",
           "text-sm font-extrabold",
-          "shadow-[0_10px_25px_rgba(42,45,76,0.08)]",
+          "shadow-[0_12px_30px_rgba(42,45,76,0.13)]",
           isSuccessStage
-            ? "border-[rgba(24,182,126,0.32)] text-[#16825f]"
-            : "border-[rgba(83,73,158,0.28)] text-[var(--color-primary)]",
+            ? "bg-[#E8FAF3] text-[#16825F] ring-1 ring-[rgba(24,182,126,0.24)]"
+            : "bg-[#F0EDFF] text-[#594FC2] ring-1 ring-[rgba(89,79,194,0.2)]",
         ].join(" ")}
       >
         {step.number}
@@ -107,7 +106,10 @@ function TimelineStep({ step, index }: TimelineStepProps) {
 
       <span
         data-timeline-label
-        className="relative z-10 text-left text-[13px] font-bold text-[#656d7f] sm:max-w-[130px] sm:text-center"
+        className={[
+          "relative z-10 text-left text-[13px] font-extrabold sm:max-w-[130px] sm:text-center",
+          isSuccessStage ? "text-[#16825F]" : "text-[#555D70]",
+        ].join(" ")}
       >
         {step.label}
       </span>
