@@ -186,21 +186,21 @@ function CrmVsSellaboo() {
               relationship moving until they're ready.
             </p>
 
-            <div className="mt-9 flex items-center gap-3 sm:gap-4">
-              <div className="flex min-h-[62px] min-w-[108px] items-center justify-center rounded-[18px] border border-[#DED9F3] bg-white px-5 text-[15px] font-extrabold text-[#353847] shadow-[0_10px_28px_rgba(58,50,104,0.08)]">
+            <div className="mt-9 grid grid-cols-[minmax(0,1fr)_32px_minmax(0,1fr)] items-center gap-2 sm:grid-cols-[minmax(108px,1fr)_minmax(32px,1fr)_minmax(138px,1fr)] sm:gap-4">
+              <div className="flex min-h-[62px] min-w-0 items-center justify-center rounded-[18px] border border-[#DED9F3] bg-white px-3 text-[14px] font-extrabold text-[#353847] shadow-[0_10px_28px_rgba(58,50,104,0.08)] sm:px-5 sm:text-[15px]">
                 Lead
               </div>
 
               <div
                 aria-hidden="true"
-                className="relative h-[2px] min-w-8 flex-1 overflow-hidden rounded-full bg-[#DAD6EB]"
+                className="relative h-[2px] min-w-0 overflow-hidden rounded-full bg-[#DAD6EB]"
               >
                 <span className="absolute inset-y-0 left-0 w-full bg-[linear-gradient(90deg,#665BC4,#18B67E)]" />
               </div>
 
-              <div className="flex min-h-[62px] min-w-[138px] items-center justify-center gap-2 rounded-[18px] bg-[linear-gradient(110deg,#5B50B5,#18A978)] px-5 text-[15px] font-extrabold text-white shadow-[0_16px_36px_rgba(75,69,156,0.24)]">
+              <div className="flex min-h-[62px] min-w-0 items-center justify-center gap-1.5 rounded-[18px] bg-[linear-gradient(110deg,#5B50B5,#18A978)] px-3 text-[14px] font-extrabold text-white shadow-[0_16px_36px_rgba(75,69,156,0.24)] sm:gap-2 sm:px-5 sm:text-[15px]">
                 Nurture
-                <span className="inline-flex size-6 items-center justify-center rounded-full bg-white/18">
+                <span className="inline-flex size-5 shrink-0 items-center justify-center rounded-full bg-white/18 sm:size-6">
                   <CheckIcon />
                 </span>
               </div>
