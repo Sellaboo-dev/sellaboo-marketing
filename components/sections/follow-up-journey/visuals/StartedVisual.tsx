@@ -1,75 +1,68 @@
 export function StartedVisual() {
   return (
-    <div className="flex h-full min-h-[320px] flex-col rounded-[22px] border border-[#E7EBF3] bg-white p-5 shadow-[0_20px_60px_-36px_rgba(24,26,36,0.28)]">
+    <div className="flex h-full min-h-[300px] flex-col rounded-[24px] border border-white/12 bg-white/[0.08] p-5 shadow-[0_22px_60px_rgba(7,5,24,0.22)] backdrop-blur-xl">
       <div className="flex items-center justify-between">
-        <div className="h-3 w-28 rounded-full bg-[#ECEAF7]" />
+        <span className="text-[10px] font-extrabold uppercase tracking-[0.12em] text-[#B2AECA]">
+          Sellaboo
+        </span>
 
-        <span className="rounded-full bg-[#18B67E] px-3 py-1 text-xs font-semibold text-white">
+        <span className="rounded-full bg-[#62E0B2]/15 px-2.5 py-1 text-[10px] font-bold text-[#7CEAC2]">
           Active
         </span>
       </div>
 
-      <div className="mt-4 flex flex-1 flex-col">
-        <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#EAF9F3]">
+      <div className="mt-5 flex items-center gap-3">
+        <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-[#62E0B2]/12 text-[#72E6BC]">
           <svg
-            aria-hidden="true"
             viewBox="0 0 24 24"
-            className="h-8 w-8 fill-none stroke-[#18B67E]"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+            aria-hidden="true"
+            className="size-5 fill-none stroke-current stroke-2"
           >
-            <path d="M5 12l5 5L20 7" />
+            <path
+              d="M5 12l4 4L19 6"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
           </svg>
+        </span>
+
+        <div>
+          <p className="text-sm font-extrabold text-white">Nurture started</p>
+          <p className="mt-0.5 text-xs text-[#AAA7B9]">Running automatically</p>
         </div>
+      </div>
 
-        <h3 className="mt-4 text-center text-lg font-semibold text-[#181A24]">
-          Follow-Up Started
-        </h3>
-
-        <p className="mx-auto mt-3 max-w-[210px] text-center text-sm leading-6 text-[#5F6678]">
-          Sellaboo immediately begins reaching out so every lead receives
-          consistent follow-up.
-        </p>
-
-        <div className="mt-6 space-y-3">
-          <div className="flex items-center justify-between rounded-xl border border-[#E7EBF3] bg-[#FBFCFE] px-4 py-3">
+      <div className="mt-5 space-y-3">
+        <div className="rounded-xl border border-white/10 bg-black/10 px-3 py-3">
+          <div className="flex items-center justify-between gap-3">
             <div>
-              <p className="text-sm font-medium text-[#181A24]">
-                Initial Welcome
+              <p className="text-xs font-bold text-[#E7E5EF]">
+                Initial follow-up
               </p>
-
-              <p className="text-xs text-[#5F6678]">
-                Sent just now
-              </p>
+              <p className="mt-1 text-[10px] text-[#9F9BAD]">Sent just now</p>
             </div>
 
-            <span className="rounded-full bg-[#EAF9F3] px-2.5 py-1 text-xs font-semibold text-[#18B67E]">
-              Sent
-            </span>
-          </div>
-
-          <div className="flex items-center justify-between rounded-xl border border-[#E7EBF3] bg-[#FBFCFE] px-4 py-3">
-            <div>
-              <p className="text-sm font-medium text-[#181A24]">
-                Follow-Up #2
-              </p>
-
-              <p className="text-xs text-[#5F6678]">
-                Tomorrow at 9:00 AM
-              </p>
-            </div>
-
-            <span className="rounded-full bg-[#ECEAF7] px-2.5 py-1 text-xs font-semibold text-[#3F3A64]">
-              Scheduled
-            </span>
+            <span className="text-[10px] font-bold text-[#72E6BC]">Sent</span>
           </div>
         </div>
 
-        <div className="mt-auto pt-5">
-          <div className="rounded-xl bg-[#18B67E] px-4 py-3 text-center text-sm font-semibold text-white shadow-sm">
-            Follow-Up Running
+        <div className="rounded-xl border border-white/10 bg-black/10 px-3 py-3">
+          <div className="flex items-center justify-between gap-3">
+            <div>
+              <p className="text-xs font-bold text-[#E7E5EF]">
+                Next touchpoint
+              </p>
+              <p className="mt-1 text-[10px] text-[#9F9BAD]">Scheduled</p>
+            </div>
+
+            <span className="size-2 rounded-full bg-[#8174DA]" />
           </div>
+        </div>
+      </div>
+
+      <div className="mt-auto pt-5">
+        <div className="rounded-xl bg-[#62E0B2]/12 px-3 py-3 text-center text-xs font-extrabold text-[#72E6BC]">
+          Nurture keeps moving
         </div>
       </div>
     </div>
