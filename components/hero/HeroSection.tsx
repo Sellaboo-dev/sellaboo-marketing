@@ -77,10 +77,10 @@ export function HeroSection() {
           </div>
 
           <h1 className="mx-auto max-w-[720px] font-[var(--font-heading)] text-[clamp(46px,5.8vw,68px)] font-extrabold leading-[1.02] tracking-[-0.058em] text-[#181A24] lg:mx-0">
-            Stop letting good leads{" "}
+            Never let a warm lead{" "}
             <span className="relative inline-block">
               <span className="bg-[linear-gradient(100deg,#594FC2_4%,#745ED8_48%,#18A978_100%)] bg-clip-text text-transparent">
-                fall through the cracks.
+                go cold.
               </span>
 
               <span
@@ -91,9 +91,10 @@ export function HeroSection() {
           </h1>
 
           <p className="mx-auto mt-5 max-w-[620px] text-[clamp(17px,1.55vw,20px)] leading-[1.72] text-[#5F6678] lg:mx-0">
-            Sellaboo keeps nurturing the leads who aren't ready yet —
-            automatically — so you don't have to build complicated CRM
-            workflows or remember who needs another follow-up.
+            Consistent follow-ups keep your prospect engaged while
+            their interest is at its peak. Our automated tool ensures that no 
+            lead is forgotten, turning casual inquiries into paying customers
+            before your competitors even get a chance.
           </p>
 
           <div className="mx-auto mt-5 flex max-w-[620px] items-center justify-center gap-3 rounded-2xl border border-[#E5E2F3] bg-white/65 px-4 py-3.5 shadow-[0_8px_28px_rgba(64,55,110,0.055)] backdrop-blur-md lg:mx-0 lg:justify-start">
