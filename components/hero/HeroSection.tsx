@@ -118,7 +118,7 @@ export function HeroSection() {
             <p className="text-sm font-bold text-[#333747] sm:text-[15px]">
               Keep your CRM.{" "}
               <span className="text-[#5A50B5]">
-                Sellaboo handles the nurture.
+                Sellaboo accelerates the deal.
               </span>
             </p>
           </div>
