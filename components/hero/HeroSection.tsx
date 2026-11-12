@@ -73,7 +73,7 @@ export function HeroSection() {
               <span className="relative inline-flex size-2.5 rounded-full bg-[#18B67E]" />
             </span>
 
-            Effortless lead nurture for busy businesses
+            Automated deal accelerator for busy business owners
           </div>
 
           <h1 className="mx-auto max-w-[720px] font-[var(--font-heading)] text-[clamp(46px,5.8vw,68px)] font-extrabold leading-[1.02] tracking-[-0.058em] text-[#181A24] lg:mx-0">
