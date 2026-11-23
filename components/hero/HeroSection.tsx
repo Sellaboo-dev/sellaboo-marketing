@@ -78,10 +78,10 @@ export function HeroSection() {
           </div>
 
           <h1 className="mx-auto max-w-[720px] font-[var(--font-heading)] text-[clamp(46px,5.8vw,68px)] font-extrabold leading-[1.02] tracking-[-0.058em] text-[#181A24] lg:mx-0">
-            Never let a warm lead{" "}
+            Turn quiet estimates {" "}
             <span className="relative inline-block">
               <span className="bg-[linear-gradient(100deg,#594FC2_4%,#745ED8_48%,#18A978_100%)] bg-clip-text text-transparent">
-                go cold.
+                into booked jobs.
               </span>
 
               <span
@@ -92,10 +92,10 @@ export function HeroSection() {
           </h1>
 
           <p className="mx-auto mt-5 max-w-[620px] text-[clamp(17px,1.55vw,20px)] leading-[1.72] text-[#5F6678] lg:mx-0">
-            Consistent follow-ups keep your prospect engaged while
-            their interest is at its peak. Our automated tool ensures that no 
-            lead is forgotten, turning casual inquiries into paying customers
-            before your competitors even get a chance.
+            Sellaboo follows up on every estimate you've sent, 
+            automatically, until the homeowner is ready to say yes. 
+            One click per lead. No workflows to build, and it works 
+            alongside the software you already use.
           </p>
 
           <div className="mx-auto mt-5 flex max-w-[620px] items-center justify-center gap-3 rounded-2xl border border-[#E5E2F3] bg-white/65 px-4 py-3.5 shadow-[0_8px_28px_rgba(64,55,110,0.055)] backdrop-blur-md lg:mx-0 lg:justify-start">
