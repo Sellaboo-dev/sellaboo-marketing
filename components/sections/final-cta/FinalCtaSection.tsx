@@ -116,7 +116,7 @@ export function FinalCtaSection() {
                   href="https://app.sellaboo.com/pricing"
                   className="min-h-[60px] gap-2.5 !bg-[#62E0B2] px-7 !text-[#173A30] shadow-[0_18px_42px_rgba(24,80,65,0.24)] transition hover:-translate-y-0.5 hover:!bg-[#72E6BC] hover:shadow-[0_22px_48px_rgba(24,80,65,0.30)]"
                 >
-                  Start Nurturing Leads
+                  Start Recapturing Leads
                   <ArrowIcon />
                 </Button>
 

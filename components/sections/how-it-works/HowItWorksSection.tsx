@@ -362,7 +362,7 @@ export function HowItWorksSection() {
               href={FOUNDING_CUSTOMER_URL}
               className="min-h-[57px] gap-2.5 px-7 shadow-[0_14px_34px_rgba(63,58,100,0.22)]"
             >
-              Start Nurturing Leads
+              Start Recapturing Leads
               <ArrowIcon />
             </Button>
 

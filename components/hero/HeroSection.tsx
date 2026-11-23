@@ -129,7 +129,7 @@ export function HeroSection() {
               href={FOUNDING_CUSTOMER_URL}
               className="min-h-[59px] gap-2.5 px-7 shadow-[0_16px_38px_rgba(77,65,151,0.28)] hover:shadow-[0_20px_46px_rgba(77,65,151,0.34)]"
             >
-              Start Nurturing Leads
+              Start Recapturing Leads
               <ArrowIcon />
             </Button>
 
