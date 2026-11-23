@@ -78,7 +78,7 @@ export function HeroSection() {
           </div>
 
           <h1 className="mx-auto max-w-[720px] font-[var(--font-heading)] text-[clamp(46px,5.8vw,68px)] font-extrabold leading-[1.02] tracking-[-0.058em] text-[#181A24] lg:mx-0">
-            Turn quiet estimates {" "}
+            Turn estimates that have gone quiet {" "}
             <span className="relative inline-block">
               <span className="bg-[linear-gradient(100deg,#594FC2_4%,#745ED8_48%,#18A978_100%)] bg-clip-text text-transparent">
                 into booked jobs.
